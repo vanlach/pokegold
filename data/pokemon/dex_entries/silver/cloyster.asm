@@ -1,7 +1,7 @@
-	db "BIVALVE@" ; species name
+	db "Bivalve@" ; species name
 	dw 411, 2920 ; height, weight
 
-	db   "CLOYSTER that live"
+	db   "Cloyster that live"
 	next "in seas with harsh"
 	next "tidal currents"
 

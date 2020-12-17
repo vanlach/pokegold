@@ -1,9 +1,9 @@
-	db "GAS@" ; species name
+	db "Gas@" ; species name
 	dw 503, 2 ; height, weight
 
 	db   "In total darkness,"
 	next "where nothing is"
-	next "visible, HAUNTER"
+	next "visible, Haunter"
 
 	page "lurks, silently"
 	next "stalking its next"

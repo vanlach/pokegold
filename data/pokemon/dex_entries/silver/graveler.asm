@@ -1,4 +1,4 @@
-	db "ROCK@" ; species name
+	db "ROck@" ; species name
 	dw 303, 2320 ; height, weight
 
 	db   "A slow walker, it"

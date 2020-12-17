@@ -7,7 +7,7 @@ NonTrainerCallerNames:
 	dw .elm
 
 .none:     db "----------@"
-.mom:      db "MOM@"
-.bill:     db "BILL@"
-.elm:      db "PROF.ELM@"
-.bikeshop: db "BIKE SHOP@"
+.mom:      db "Mom@"
+.bill:     db "Bill@"
+.elm:      db "Prof.Elm@"
+.bikeshop: db "Bike Shop@"

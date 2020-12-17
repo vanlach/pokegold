@@ -1,4 +1,4 @@
-	db "SHELLFISH@" ; species name
+	db "Shellfish@" ; species name
 	dw 403, 890 ; height, weight
 
 	db   "In the water, it"

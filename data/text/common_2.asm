@@ -1,22 +1,22 @@
 _CantSurfText::
-	text "You can't SURF"
+	text "You can't surf"
 	line "here."
 	prompt
 
 _AlreadySurfingText::
 	text "You're already"
-	line "SURFING."
+	line "surfing."
 	prompt
 
 _AskSurfText::
 	text "The water is calm."
-	line "Want to SURF?"
+	line "Want to surf?"
 	done
 
 _UseWaterfallText::
 	text_ram wStringBuffer2
 	text " used"
-	line "WATERFALL!"
+	line "Waterfall!"
 	done
 
 _HugeWaterfallText::
@@ -26,18 +26,18 @@ _HugeWaterfallText::
 
 _AskWaterfallText::
 	text "Do you want to use"
-	line "WATERFALL?"
+	line "Waterfall?"
 	done
 
 _UseDigText::
 	text_ram wStringBuffer2
 	text " used"
-	line "DIG!"
+	line "Dig!"
 	done
 
 _UseEscapeRopeText::
 	text "<PLAYER> used an"
-	line "ESCAPE ROPE."
+	line "escape rope."
 	done
 
 _CantUseDigText::
@@ -47,7 +47,7 @@ _CantUseDigText::
 
 _TeleportReturnText::
 	text "Return to the last"
-	line "#MON CENTER."
+	line "#mon Center."
 	done
 
 _CantUseTeleportText::
@@ -58,14 +58,14 @@ _CantUseTeleportText::
 	done
 
 _AlreadyUsingStrengthText::
-	text "A #MON is using"
-	line "STRENGTH already."
+	text "A #mon is using"
+	line "strength already."
 	prompt
 
 _UseStrengthText::
 	text_ram wStringBuffer2
 	text " used"
-	line "STRENGTH!"
+	line "Strength!"
 	done
 
 _MoveBoulderText::
@@ -75,11 +75,11 @@ _MoveBoulderText::
 	prompt
 
 _AskStrengthText::
-	text "A #MON may be"
+	text "A #mon may be"
 	line "able to move this."
 
 	para "Want to use"
-	line "STRENGTH?"
+	line "strength?"
 	done
 
 _BouldersMoveText::
@@ -88,21 +88,21 @@ _BouldersMoveText::
 	done
 
 _BouldersMayMoveText::
-	text "A #MON may be"
+	text "A #mon may be"
 	line "able to move this."
 	done
 
 _UseWhirlpoolText::
 	text_ram wStringBuffer2
 	text " used"
-	line "WHIRLPOOL!"
+	line "Whirlpool!"
 	prompt
 
 _MayPassWhirlpoolText::
 	text "It's a vicious"
 	line "whirlpool!"
 
-	para "A #MON may be"
+	para "A #mon may be"
 	line "able to pass it."
 	done
 
@@ -111,13 +111,13 @@ _AskWhirlpoolText::
 	line "the way."
 
 	para "Want to use"
-	line "WHIRLPOOL?"
+	line "whirlpool?"
 	done
 
 _UseHeadbuttText::
 	text_ram wStringBuffer2
 	text " did a"
-	line "HEADBUTT!"
+	line "Headbutt!"
 	prompt
 
 _HeadbuttNothingText::
@@ -125,21 +125,21 @@ _HeadbuttNothingText::
 	done
 
 _AskHeadbuttText::
-	text "A #MON could be"
+	text "A #mon could be"
 	line "in this tree."
 
-	para "Want to HEADBUTT"
+	para "Want to headbutt"
 	line "it?"
 	done
 
 _UseRockSmashText::
 	text_ram wStringBuffer2
 	text " used"
-	line "ROCK SMASH!"
+	line "Rock Smash!"
 	prompt
 
 _MaySmashText::
-	text "A #MON may be"
+	text "A #mon may be"
 	line "able to break it."
 	done
 
@@ -147,8 +147,8 @@ _AskRockSmashText::
 	text "This rock looks"
 	line "breakable."
 
-	para "Want to use ROCK"
-	line "SMASH?"
+	para "Want to use rock"
+	line "smash?"
 	done
 
 _RodBiteText::
@@ -186,14 +186,14 @@ _GotOffBikeText::
 
 _AskCutText::
 	text "This tree can be"
-	line "CUT!"
+	line "cut!"
 
-	para "Want to use CUT?"
+	para "Want to use cut?"
 	done
 
 _CanCutText::
 	text "This tree can be"
-	line "CUT!"
+	line "cut!"
 	done
 
 _FoundItemText::
@@ -211,20 +211,20 @@ _CantCarryItemText::
 
 _WhitedOutText::
 	text "<PLAYER> is out of"
-	line "useable #MON!"
+	line "useable #mon!"
 
 	para "<PLAYER> whited"
 	line "out!"
 	done
 
 _ItemfinderItemNearbyText::
-	text "Yes! ITEMFINDER"
+	text "Yes! Itemfinder"
 	line "indicates there's"
 	cont "an item nearby."
 	prompt
 
 _ItemfinderNopeText::
-	text "Nope! ITEMFINDER"
+	text "Nope! Itemfinder"
 	line "isn't responding."
 	prompt
 
@@ -236,7 +236,7 @@ _PoisonFaintText::
 
 _PoisonWhiteoutText::
 	text "<PLAYER> is out of"
-	line "useable #MON!"
+	line "useable #mon!"
 
 	para "<PLAYER> whited"
 	line "out!"
@@ -245,7 +245,7 @@ _PoisonWhiteoutText::
 _UseSweetScentText::
 	text_ram wStringBuffer3
 	text " used"
-	line "SWEET SCENT!"
+	line "Sweet Scent!"
 	done
 
 _SweetScentNothingText::
@@ -262,12 +262,12 @@ _SquirtbottleNothingText::
 	done
 
 _UseSacredAshText::
-	text "<PLAYER>'s #MON"
+	text "<PLAYER>'s #mon"
 	line "were all healed!"
 	done
 
 _AnEggCantHoldAnItemText::
-	text "An EGG can't hold"
+	text "An egg can't hold"
 	line "an item."
 	prompt
 
@@ -286,25 +286,25 @@ _AskQuantityThrowAwayText::
 	text_start
 	line "@"
 	text_ram wStringBuffer2
-	text "(S)?"
+	text "(s)?"
 	done
 
 _ThrewAwayText::
 	text "Threw away"
 	line "@"
 	text_ram wStringBuffer2
-	text "(S)."
+	text "(s)."
 	prompt
 
 _OakThisIsntTheTimeText::
-	text "OAK: <PLAYER>!"
+	text "Oak: <PLAYER>!"
 	line "This isn't the"
 	cont "time to use that!"
 	prompt
 
 _YouDontHaveAMonText::
 	text "You don't have a"
-	line "#MON!"
+	line "#mon!"
 	prompt
 
 _RegisteredItemText::
@@ -453,7 +453,7 @@ _BreedClearboxText::
 _BreedEggHatchText::
 	text_ram wStringBuffer1
 	text " came"
-	line "out of its EGG!@"
+	line "out of its egg!@"
 	sound_caught_mon
 	text_promptbutton
 	text_end
@@ -470,7 +470,7 @@ _LeftWithDayCareLadyText::
 	text_ram wBreedMon2Nick
 	text_start
 	line "that was left with"
-	cont "the DAY-CARE LADY."
+	cont "the Day-Care Lady."
 	done
 
 _LeftWithDayCareManText::
@@ -478,7 +478,7 @@ _LeftWithDayCareManText::
 	text_ram wBreedMon1Nick
 	text_start
 	line "that was left with"
-	cont "the DAY-CARE MAN."
+	cont "the Day-Care Man."
 	done
 
 _BreedBrimmingWithEnergyText::
@@ -515,22 +515,22 @@ _BreedShowsInterestText::
 	prompt
 
 _EmptyMailboxText::
-	text "There's no MAIL"
+	text "There's no mail"
 	line "here."
 	prompt
 
 _MailClearedPutAwayText::
-	text "The cleared MAIL"
+	text "The cleared mail"
 	line "was put away."
 	prompt
 
 _MailPackFullText::
-	text "The PACK is full."
+	text "The pack is full."
 	prompt
 
 _MailMessageLostText::
-	text "The MAIL's message"
-	line "will be lost. OK?"
+	text "The mail's message"
+	line "will be lost. Ok?"
 	done
 
 _MailAlreadyHoldingItemText::
@@ -539,24 +539,24 @@ _MailAlreadyHoldingItemText::
 	prompt
 
 _MailEggText::
-	text "An EGG can't hold"
-	line "any MAIL."
+	text "An egg can't hold"
+	line "any mail."
 	prompt
 
 _MailMovedFromBoxText::
-	text "The MAIL was moved"
-	line "from the MAILBOX."
+	text "The mail was moved"
+	line "from the mailbox."
 	prompt
 
 _WasSentToBillsPCText::
 	text_ram wStringBuffer1
 	text " was"
-	line "sent to BILL's PC."
+	line "sent to Bill's PC."
 	prompt
 
 _PCGottaHavePokemonText::
 	text "You gotta have"
-	line "#MON to call!"
+	line "#mon to call!"
 	prompt
 
 _PCWhatText::
@@ -564,26 +564,26 @@ _PCWhatText::
 	done
 
 _PCMonHoldingMailText::
-	text "There is a #MON"
-	line "holding MAIL."
+	text "There is a #mon"
+	line "holding mail."
 
 	para "Please remove the"
-	line "MAIL."
+	line "mail."
 	prompt
 
 _PCNoSingleMonText::
 	text "You don't have a"
-	line "single #MON!"
+	line "single #mon!"
 	prompt
 
 _PCCantDepositLastMonText::
 	text "You can't deposit"
-	line "your last #MON!"
+	line "your last #mon!"
 	prompt
 
 _PCCantTakeText::
 	text "You can't take any"
-	line "more #MON."
+	line "more #mon."
 	prompt
 
 _ContestCaughtMonText::
@@ -593,7 +593,7 @@ _ContestCaughtMonText::
 	prompt
 
 _ContestAskSwitchText::
-	text "Switch #MON?"
+	text "Switch #mon?"
 	done
 
 _ContestAlreadyCaughtText::
@@ -671,7 +671,7 @@ _ContestJudging_ThirdPlaceScoreText::
 
 _MagikarpGuruMeasureText::
 	text "Let me measure"
-	line "that MAGIKARP."
+	line "that Magikarp."
 
 	para "…Hm, it measures"
 	line "@"
@@ -680,7 +680,7 @@ _MagikarpGuruMeasureText::
 	prompt
 
 _KarpGuruRecordText::
-	text "CURRENT RECORD"
+	text "Current Record"
 
 	para "@"
 	text_ram wStringBuffer1
@@ -711,7 +711,7 @@ _LuckyNumberMatchPCText::
 	para "of @"
 	text_ram wStringBuffer1
 	text " in"
-	line "your PC BOX."
+	line "your PC box."
 	prompt
 
 _CaughtAskNicknameText::
@@ -724,7 +724,7 @@ _CaughtAskNicknameText::
 
 _PokecenterPCCantUseText::
 	text "Bzzzzt! You must"
-	line "have a #MON to"
+	line "have a #mon to"
 	cont "use this!"
 	prompt
 
@@ -749,7 +749,7 @@ _PlayersPCWithdrewItemsText::
 	text_start
 	line "@"
 	text_ram wStringBuffer2
-	text "(S)."
+	text "(s)."
 	prompt
 
 _PlayersPCNoRoomWithdrawText::
@@ -772,7 +772,7 @@ _PlayersPCDepositItemsText::
 	text_start
 	line "@"
 	text_ram wStringBuffer2
-	text "(S)."
+	text "(s)."
 	prompt
 
 _PlayersPCNoRoomDepositText::
@@ -790,10 +790,10 @@ _PokecenterPCWhoseText::
 	done
 
 _PokecenterBillsPCText::
-	text "BILL's PC"
+	text "Bill's PC"
 	line "accessed."
 
-	para "#MON Storage"
+	para "#mon Storage"
 	line "System opened."
 	prompt
 
@@ -805,10 +805,10 @@ _PokecenterPlayersPCText::
 	prompt
 
 _PokecenterOaksPCText::
-	text "PROF.OAK's PC"
+	text "Prof.Oak's PC"
 	line "accessed."
 
-	para "#DEX Rating"
+	para "#dex Rating"
 	line "System opened."
 	prompt
 
@@ -819,34 +819,34 @@ _PokecenterPCOaksClosedText::
 
 _OakPCText1::
 	text "Want to get your"
-	line "#DEX rated?"
+	line "#dex rated?"
 	done
 
 _OakPCText2::
-	text "Current #DEX"
+	text "Current #dex"
 	line "completion level:"
 	prompt
 
 _OakPCText3::
 	text_ram wStringBuffer3
-	text " #MON seen"
+	text " #mon seen"
 	line "@"
 	text_ram wStringBuffer4
-	text " #MON owned"
+	text " #mon owned"
 
-	para "PROF.OAK's"
+	para "Prof.Oak's"
 	line "Rating:"
 	done
 
 _OakRating01::
-	text "Look for #MON"
+	text "Look for #mon"
 	line "in grassy areas!"
 	done
 
 _OakRating02::
 	text "Good. I see you"
 	line "understand how to"
-	cont "use # BALLS."
+	cont "use # balls."
 	done
 
 _OakRating03::
@@ -859,33 +859,33 @@ _OakRating03::
 
 _OakRating04::
 	text "You need to fill"
-	line "up the #DEX."
+	line "up the #dex."
 
 	para "Catch different"
-	line "kinds of #MON!"
+	line "kinds of #mon!"
 	done
 
 _OakRating05::
 	text "You're trying--I"
 	line "can see that."
 
-	para "Your #DEX is"
+	para "Your #dex is"
 	line "coming together."
 	done
 
 _OakRating06::
 	text "To evolve, some"
-	line "#MON grow,"
+	line "#mon grow,"
 
 	para "others use the"
-	line "effects of STONES."
+	line "effects of stones."
 	done
 
 _OakRating07::
 	text "Have you gotten a"
-	line "fishing ROD? You"
+	line "fishing rod? You"
 
-	para "can catch #MON"
+	para "can catch #mon"
 	line "by fishing."
 	done
 
@@ -896,7 +896,7 @@ _OakRating08::
 	done
 
 _OakRating09::
-	text "Some #MON only"
+	text "Some #mon only"
 	line "appear during"
 
 	para "certain times of"
@@ -904,7 +904,7 @@ _OakRating09::
 	done
 
 _OakRating10::
-	text "Your #DEX is"
+	text "Your #dex is"
 	line "filling up. Keep"
 	cont "up the good work!"
 	done
@@ -913,27 +913,27 @@ _OakRating11::
 	text "I'm impressed."
 	line "You're evolving"
 
-	para "#MON, not just"
+	para "#mon, not just"
 	line "catching them."
 	done
 
 _OakRating12::
-	text "Have you met KURT?"
+	text "Have you met Kurt?"
 	line "His custom #"
-	cont "BALLS should help."
+	cont "balls should help."
 	done
 
 _OakRating13::
 	text "Wow. You've found"
-	line "more #MON than"
+	line "more #mon than"
 
-	para "the last #DEX"
+	para "the last #dex"
 	line "research project."
 	done
 
 _OakRating14::
 	text "Are you trading"
-	line "your #MON?"
+	line "your #mon?"
 
 	para "It's tough to do"
 	line "this alone!"
@@ -941,13 +941,13 @@ _OakRating14::
 
 _OakRating15::
 	text "Wow! You've hit"
-	line "200! Your #DEX"
+	line "200! Your #dex"
 	cont "is looking great!"
 	done
 
 _OakRating16::
 	text "You've found so"
-	line "many #MON!"
+	line "many #mon!"
 
 	para "You've really"
 	line "helped my studies!"
@@ -957,12 +957,12 @@ _OakRating17::
 	text "Magnificent! You"
 	line "could become a"
 
-	para "#MON professor"
+	para "#mon professor"
 	line "right now!"
 	done
 
 _OakRating18::
-	text "Your #DEX is"
+	text "Your #dex is"
 	line "amazing! You're"
 
 	para "ready to turn"
@@ -971,15 +971,15 @@ _OakRating18::
 
 _OakRating19::
 	text "Whoa! A perfect"
-	line "#DEX! I've"
+	line "#dex! I've"
 
 	para "dreamt about this!"
 	line "Congratulations!"
 	done
 
 _OakPCText4::
-	text "The link to PROF."
-	line "OAK's PC closed."
+	text "The link to Prof."
+	line "Oak's PC closed."
 	done
 
 _MemoryGameYeahText::
@@ -999,7 +999,7 @@ _ItemsTossOutHowManyText::
 	text "Toss out how many"
 	line "@"
 	text_ram wStringBuffer2
-	text "(S)?"
+	text "(s)?"
 	done
 
 _ItemsThrowAwayText::
@@ -1008,14 +1008,14 @@ _ItemsThrowAwayText::
 	text_start
 	line "@"
 	text_ram wStringBuffer2
-	text "(S)?"
+	text "(s)?"
 	done
 
 _ItemsDiscardedText::
 	text "Discarded"
 	line "@"
 	text_ram wStringBuffer1
-	text "(S)."
+	text "(s)."
 	prompt
 
 _ItemsTooImportantText::
@@ -1024,7 +1024,7 @@ _ItemsTooImportantText::
 	prompt
 
 _ItemsOakWarningText::
-	text "OAK: <PLAYER>!"
+	text "Oak: <PLAYER>!"
 	line "This isn't the"
 	cont "time to use that!"
 	done
@@ -1054,7 +1054,7 @@ _PokemonHoldItemText::
 
 _PokemonRemoveMailText::
 	text "Please remove the"
-	line "MAIL first."
+	line "mail first."
 	prompt
 
 _PokemonNotHoldingText::
@@ -1094,12 +1094,12 @@ _ItemCantHeldText::
 	prompt
 
 _MailLoseMessageText::
-	text "The MAIL will lose"
-	line "its message. OK?"
+	text "The mail will lose"
+	line "its message. Ok?"
 	done
 
 _MailDetachedText::
-	text "MAIL detached from"
+	text "Mail detached from"
 	line "@"
 	text_ram wStringBuffer1
 	text "."
@@ -1107,21 +1107,21 @@ _MailDetachedText::
 
 _MailNoSpaceText::
 	text "There's no space"
-	line "for removing MAIL."
+	line "for removing mail."
 	prompt
 
 _MailAskSendToPCText::
 	text "Send the removed"
-	line "MAIL to your PC?"
+	line "mail to your PC?"
 	done
 
 _MailboxFullText::
-	text "Your PC's MAILBOX"
+	text "Your PC's mailbox"
 	line "is full."
 	prompt
 
 _MailSentToPCText::
-	text "The MAIL was sent"
+	text "The mail was sent"
 	line "to your PC."
 	prompt
 
@@ -1131,10 +1131,10 @@ _PokemonNotEnoughHPText::
 
 _MayRegisterItemText::
 	text "An item in your"
-	line "PACK may be"
+	line "pack may be"
 
 	para "registered for use"
-	line "on SELECT Button."
+	line "on select Button."
 	done
 
 _MainMenuTimeUnknownText::
@@ -1146,19 +1146,19 @@ _OakText1::
 	line "keep you waiting!"
 
 	para "Welcome to the"
-	line "world of #MON!"
+	line "world of #mon!"
 
-	para "My name is OAK."
+	para "My name is Oak."
 
 	para "People call me the"
-	line "#MON PROF."
+	line "#mon Prof."
 	prompt
 
 _OakText2::
 	text "This world is in-"
 	line "habited by crea-"
 	cont "tures that we call"
-	cont "#MON.@"
+	cont "#mon.@"
 	text_end
 
 _OakText3::
@@ -1166,28 +1166,28 @@ _OakText3::
 	text_end
 
 _OakText4::
-	text "People and #MON"
+	text "People and #mon"
 	line "live together by"
 
 	para "supporting each"
 	line "other."
 
 	para "Some people play"
-	line "with #MON, some"
+	line "with #mon, some"
 	cont "battle with them."
 	prompt
 
 _OakText5::
 	text "But we don't know"
 	line "everything about"
-	cont "#MON yet."
+	cont "#mon yet."
 
 	para "There are still"
 	line "many mysteries to"
 	cont "solve."
 
 	para "That's why I study"
-	line "#MON every day."
+	line "#mon every day."
 	prompt
 
 _OakText6::
@@ -1200,7 +1200,7 @@ _OakText7::
 	line "ready?"
 
 	para "Your very own"
-	line "#MON story is"
+	line "#mon story is"
 	cont "about to unfold."
 
 	para "You'll face fun"
@@ -1210,7 +1210,7 @@ _OakText7::
 	para "A world of dreams"
 	line "and adventures"
 
-	para "with #MON"
+	para "with #mon"
 	line "awaits! Let's go!"
 
 	para "I'll be seeing you"
@@ -1234,7 +1234,7 @@ _ClockSetWithControlPadText::
 	done
 
 _ClockIsThisOKText::
-	text "Is this OK?"
+	text "Is this Ok?"
 	done
 
 _ClockHasResetText::
@@ -1250,7 +1250,7 @@ _LinkTimeoutText::
 
 _LinkTradeCantBattleText::
 	text "If you trade that"
-	line "#MON, you won't"
+	line "#mon, you won't"
 	cont "be able to battle."
 	prompt
 
@@ -1289,7 +1289,7 @@ _SavedTheGameText::
 _AlreadyASaveFileText::
 	text "There is already a"
 	line "save file. Is it"
-	cont "OK to overwrite?"
+	cont "Ok to overwrite?"
 	done
 
 _AnotherSaveFileText::
@@ -1305,14 +1305,14 @@ _SaveFileCorruptedText::
 
 _ChangeBoxSaveText::
 	text "When you change a"
-	line "#MON BOX, data"
+	line "#mon box, data"
 	cont "will be saved. OK?"
 	done
 
 _MoveMonWOMailSaveText::
 	text "Each time you move"
-	line "a #MON, data"
-	cont "will be saved. OK?"
+	line "a #mon, data"
+	cont "will be saved. Ok?"
 	done
 
 _WindowAreaExceededErrorText:: ; unreferenced
@@ -1404,7 +1404,7 @@ _MartFinalPriceText::
 	text_decimal wItemQuantityChangeBuffer, 1, 2
 	text " @"
 	text_ram wStringBuffer2
-	text "(S)"
+	text "(s)"
 	line "will be ¥@"
 	text_decimal hMoneyTemp, 3, 6
 	text "."
@@ -1419,7 +1419,7 @@ _HerbShopLadyIntroText::
 	para "They're good, but"
 	line "a trifle bitter."
 
-	para "Your #MON may"
+	para "Your #mon may"
 	line "not like them."
 
 	para "Hehehehe…"
@@ -1433,7 +1433,7 @@ _HerbalLadyFinalPriceText::
 	text_decimal wItemQuantityChangeBuffer, 1, 2
 	text " @"
 	text_ram wStringBuffer2
-	text "(S)"
+	text "(s)"
 	line "will be ¥@"
 	text_decimal hMoneyTemp, 3, 6
 	text "."
@@ -1516,7 +1516,7 @@ _PharmacyFinalPriceText::
 	text_decimal wItemQuantityChangeBuffer, 1, 2
 	text " @"
 	text_ram wStringBuffer2
-	text "(S)"
+	text "(s)"
 	line "will cost ¥@"
 	text_decimal hMoneyTemp, 3, 6
 	text "."
@@ -1557,7 +1557,7 @@ _MartSellPriceText::
 	text_decimal hMoneyTemp, 3, 6
 	text "."
 
-	para "Is that OK?"
+	para "Is that ok?"
 	done
 
 _MartWelcomeText::
@@ -1600,7 +1600,7 @@ _MartBoughtText::
 	text " for"
 	line "@"
 	text_ram wStringBuffer2
-	text "(S)."
+	text "(s)."
 	done
 
 _SlotsBetHowManyCoinsText::

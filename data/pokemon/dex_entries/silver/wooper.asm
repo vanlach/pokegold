@@ -1,4 +1,4 @@
-	db "WATER FISH@" ; species name
+	db "Water Fish@" ; species name
 	dw 104, 190 ; height, weight
 
 	db   "When it walks a-"

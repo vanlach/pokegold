@@ -126,7 +126,7 @@ CopycatSpinAroundMovementData:
 
 CopycatText_Male_1:
 	text "<PLAYER>: Hi! Do"
-	line "you like #MON?"
+	line "you like #mon?"
 
 	para "<PLAYER>: Uh, no, I"
 	line "just asked you."
@@ -136,7 +136,7 @@ CopycatText_Male_1:
 	done
 
 CopycatText_QuickMimicking:
-	text "COPYCAT: Hmm?"
+	text "Copycat: Hmm?"
 	line "Quit mimicking?"
 
 	para "But that's my"
@@ -148,22 +148,22 @@ CopycatText_Male_2:
 	line "I heard that you"
 
 	para "lost your favorite"
-	line "# DOLL."
+	line "# Doll."
 
 	para "<PLAYER>: If I find"
 	line "it, you'll give me"
-	cont "a rail PASS?"
+	cont "a rail pass?"
 
 	para "<PLAYER>: I'll go"
 	line "find it for you."
 
 	para "You think you lost"
 	line "it when you went"
-	cont "to VERMILION CITY?"
+	cont "to Vermilion City?"
 	done
 
 CopycatText_Worried:
-	text "COPYCAT: Pardon?"
+	text "Copycat: Pardon?"
 
 	para "I shouldn't decide"
 	line "what you should"
@@ -175,9 +175,9 @@ CopycatText_Worried:
 	done
 
 CopycatText_GiveDoll:
-	text "COPYCAT: Yay!"
-	line "That's my CLEFAIRY"
-	cont "# DOLL!"
+	text "Copycat: Yay!"
+	line "That's my Clefairy"
+	cont "# Doll!"
 
 	para "See the tear where"
 	line "the right leg is"
@@ -187,28 +187,28 @@ CopycatText_GiveDoll:
 	done
 
 CopycatText_GivePass:
-	text "OK. Here's the"
-	line "MAGNET TRAIN PASS"
+	text "Ok. Here's the"
+	line "Magnet Train Pass"
 	cont "like I promised!"
 	done
 
 CopycatText_ExplainPass:
-	text "COPYCAT: That's"
-	line "the PASS for the"
-	cont "MAGNET TRAIN."
+	text "Copycat: That's"
+	line "the pass for the"
+	cont "Magnet Train."
 
 	para "The rail company"
 	line "man gave me that"
 
 	para "when they tore"
 	line "down our old house"
-	cont "for the STATION."
+	cont "for the station."
 	done
 
 CopycatText_Male_3:
 	text "<PLAYER>: Hi!"
 	line "Thanks a lot for"
-	cont "the rail PASS!"
+	cont "the rail pass!"
 
 	para "<PLAYER>: Pardon?"
 
@@ -218,12 +218,12 @@ CopycatText_Male_3:
 	done
 
 CopycatText_ItsAScream:
-	text "COPYCAT: You bet!"
+	text "Copycat: You bet!"
 	line "It's a scream!"
 	done
 
 CopycatsDodrioText1:
-	text "DODRIO: Gii giii!"
+	text "Dodrio: Gii giii!"
 	done
 
 CopycatsDodrioText2:
@@ -236,7 +236,7 @@ CopycatsDodrioText2:
 
 CopycatsHouse2FDollText:
 	text "This is a rare"
-	line "#MON! Huh?"
+	line "#mon! Huh?"
 
 	para "It's only a doll…"
 	done

@@ -1,4 +1,4 @@
-	db "FREEZE@" ; species name
+	db "Freeze@" ; species name
 	dw 507, 1220 ; height, weight
 
 	db   "The magnificent,"
@@ -6,5 +6,5 @@
 	next "cent wings of this"
 
 	page "legendary bird"
-	next "#MON are said"
+	next "#mon are said"
 	next "to be made of ice.@"

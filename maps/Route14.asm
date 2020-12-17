@@ -55,7 +55,7 @@ PokefanmCarterSeenText:
 	line "I had a hard time"
 
 	para "catching my prized"
-	line "#MON."
+	line "#mon."
 	done
 
 PokefanmCarterBeatenText:
@@ -63,8 +63,8 @@ PokefanmCarterBeatenText:
 	done
 
 PokefanmCarterAfterBattleText:
-	text "SQUIRTLE, CHARMAN-"
-	line "DER and BULBASAUR…"
+	text "Squirtle, Charman-"
+	line "der and Bulbasaur…"
 
 	para "I think that's a"
 	line "well-balanced mix."
@@ -73,7 +73,7 @@ PokefanmCarterAfterBattleText:
 BirdKeeperRoySeenText:
 	text "My dream is to fly"
 	line "with my beloved"
-	cont "bird #MON."
+	cont "bird #mon."
 	done
 
 BirdKeeperRoyBeatenText:
@@ -82,16 +82,16 @@ BirdKeeperRoyBeatenText:
 	done
 
 BirdKeeperRoyAfterBattleText:
-	text "You have #MON"
+	text "You have #mon"
 	line "that know the HM"
 
-	para "move FLY, don't"
+	para "move Fly, don't"
 	line "you? I envy you."
 	done
 
 PokefanmTrevorSeenText:
 	text "Did you battle all"
-	line "the GYM trainers?"
+	line "the gym trainers?"
 	done
 
 PokefanmTrevorBeatenText:
@@ -100,8 +100,8 @@ PokefanmTrevorBeatenText:
 	done
 
 PokefanmTrevorAfterBattleText:
-	text "If you have KANTO"
-	line "BADGES, they'll"
+	text "If you have Kanto"
+	line "badges, they'll"
 
 	para "help you in linked"
 	line "battles."

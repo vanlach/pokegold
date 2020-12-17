@@ -1,7 +1,7 @@
-	db "FLAME@" ; species name
+	db "Flame@" ; species name
 	dw 507, 2000 ; height, weight
 
-	db   "If CHARIZARD be-"
+	db   "If Charizard be-"
 	next "comes furious, the"
 	next "flame at the tip"
 

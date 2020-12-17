@@ -1,7 +1,7 @@
-	db "SPIRAL@" ; species name
+	db "Spiral@" ; species name
 	dw 104, 170 ; height, weight
 
-	db   "This #MON from"
+	db   "This #mon from"
 	next "ancient times is"
 	next "said to have navi-"
 

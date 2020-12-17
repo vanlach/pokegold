@@ -539,15 +539,15 @@ IlexForestApprenticeIntroText:
 	line "is going to be"
 	cont "steaming…"
 
-	para "The FARFETCH'D"
-	line "that CUTS trees"
+	para "The Farfetch'd"
+	line "that cuts trees"
 
 	para "for charcoal took"
 	line "off on me."
 
 	para "I can't go looking"
 	line "for it here in the"
-	cont "ILEX FOREST."
+	cont "Ilex Forest."
 
 	para "It's too big, dark"
 	line "and scary for me…"
@@ -557,23 +557,23 @@ IlexForestApprenticeAfterText:
 	text "Wow! Thanks a"
 	line "whole bunch!"
 
-	para "My boss's #MON"
+	para "My boss's #mon"
 	line "won't obey me be-"
 	cont "cause I don't have"
-	cont "a BADGE."
+	cont "a badge."
 	done
 
 Text_ItsTheMissingPokemon:
 	text "It's the missing"
-	line "#MON!"
+	line "#mon!"
 	done
 
 Text_Kwaaaa:
-	text "FARFETCH'D: Kwaa!"
+	text "Farfetch'd: Kwaa!"
 	done
 
 Text_CharcoalMasterIntro:
-	text "Ah! My FARFETCH'D!"
+	text "Ah! My Farfetch'd!"
 
 	para "You found it for"
 	line "us, kid?"
@@ -581,7 +581,7 @@ Text_CharcoalMasterIntro:
 	para "Without it, we"
 	line "wouldn't be able"
 
-	para "to CUT trees for"
+	para "to cut trees for"
 	line "charcoal."
 
 	para "Thanks, kid!"
@@ -594,17 +594,17 @@ Text_CharcoalMasterIntro:
 	done
 
 Text_CharcoalMasterOutro:
-	text "That's the CUT HM."
+	text "That's the Cut HM."
 	line "Teach that to a"
 
-	para "#MON to clear"
+	para "#mon to clear"
 	line "small trees."
 
 	para "Of course, you"
 	line "have to have the"
 
-	para "GYM BADGE from"
-	line "AZALEA to use it."
+	para "gym badge from"
+	line "Azalea to use it."
 	done
 
 Text_CharcoalMasterTalkAfter:
@@ -622,7 +622,7 @@ Text_HeadbuttIntro:
 	text "What am I doing?"
 
 	para "I'm shaking trees"
-	line "using HEADBUTT."
+	line "using headbutt."
 
 	para "It's fun. Here,"
 	line "you try it too!"
@@ -630,13 +630,13 @@ Text_HeadbuttIntro:
 
 Text_HeadbuttOutro:
 	text "Rattle trees with"
-	line "HEADBUTT. Some-"
+	line "headbutt. Some-"
 	cont "times, sleeping"
-	cont "#MON fall out."
+	cont "#mon fall out."
 	done
 
 IlexForestSignpostText:
-	text "ILEX FOREST is"
+	text "Ilex Forest is"
 	line "so overgrown with"
 
 	para "trees that you"
@@ -648,8 +648,8 @@ IlexForestSignpostText:
 	done
 
 Text_IlexForestShrine:
-	text "ILEX FOREST"
-	line "SHRINE…"
+	text "Ilex Forest"
+	line "Shrine…"
 
 	para "It's in honor of"
 	line "the forest's"

@@ -1,4 +1,4 @@
-	db "LITTLEBEAR@" ; species name
+	db "Littlebear@" ; species name
 	dw 200, 190 ; height, weight
 
 	db   "If it finds honey,"

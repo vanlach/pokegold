@@ -1,8 +1,8 @@
-	db "LAND SNAKE@" ; species name
+	db "Land Snake@" ; species name
 	dw 411, 310 ; height, weight
 
 	db   "When spotted, this"
-	next "#MON escapes"
+	next "#mon escapes"
 	next "backward by furi-"
 
 	page "ously boring into"

@@ -1,7 +1,7 @@
-	db "VOLCANO@" ; species name
+	db "Volcano@" ; species name
 	dw 211, 420 ; height, weight
 
-	db   "This #MON is"
+	db   "This #mon is"
 	next "fully covered by"
 	next "nonflammable fur."
 

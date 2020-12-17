@@ -236,7 +236,7 @@ Route25MistyLeavesMovement:
 	step_end
 
 Route25MistyDateText:
-	text "MISTY: Aww! Why"
+	text "Misty: Aww! Why"
 	line "did you have to"
 
 	para "show up and bug us"
@@ -251,22 +251,22 @@ Route25MistyDateText:
 
 	para "…"
 
-	para "…Oh? Those BADGES"
+	para "…Oh? Those badges"
 	line "you have… Are they"
-	cont "JOHTO GYM BADGES?"
+	cont "Johto gym badges?"
 
 	para "If you have eight,"
 	line "you must be good."
 
-	para "OK, then. Come to"
-	line "CERULEAN GYM."
+	para "Ok, then. Come to"
+	line "Cerulean Gym."
 
 	para "I'll be happy to"
 	line "take you on."
 
-	para "I'm MISTY, the"
-	line "GYM LEADER in"
-	cont "CERULEAN."
+	para "I'm Misty, the"
+	line "gym leader in"
+	cont "Cerulean."
 	done
 
 SchoolboyDudleySeenText:
@@ -330,7 +330,7 @@ LassLauraAfterBattleText:
 	done
 
 CamperLloydSeenText:
-	text "OK! I'm No. 5."
+	text "Ok! I'm No. 5."
 	line "I'll stomp you!"
 	done
 
@@ -419,12 +419,12 @@ CooltrainermKevinAfterBattleText:
 	done
 
 BillsHouseSignText:
-	text "SEA COTTAGE"
-	line "BILL'S HOUSE"
+	text "Sea Cottage"
+	line "Bill's House"
 	done
 
 UnusedBillsHouseSignText: ; unreferenced
-	text "BILL'S HOUSE"
+	text "Bill's House"
 	done
 
 Route25_MapEvents:

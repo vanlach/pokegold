@@ -1,4 +1,4 @@
-	db "BAGWORM@" ; species name
+	db "Bagworm@" ; species name
 	dw 200, 160 ; height, weight
 
 	db   "It likes to make"

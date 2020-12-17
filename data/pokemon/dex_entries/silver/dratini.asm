@@ -1,7 +1,7 @@
-	db "DRAGON@" ; species name
+	db "Dragon@" ; species name
 	dw 511, 70 ; height, weight
 
-	db   "This #MON is"
+	db   "This #mon is"
 	next "full of life ener-"
 	next "gy. It continually"
 

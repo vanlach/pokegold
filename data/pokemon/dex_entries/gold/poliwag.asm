@@ -1,4 +1,4 @@
-	db "TADPOLE@" ; species name
+	db "Tadpole@" ; species name
 	dw 200, 270 ; height, weight
 
 	db   "Because it is in-"

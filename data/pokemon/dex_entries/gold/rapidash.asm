@@ -1,4 +1,4 @@
-	db "FIRE HORSE@" ; species name
+	db "Fire Horse@" ; species name
 	dw 507, 2090 ; height, weight
 
 	db   "At full gallop,"

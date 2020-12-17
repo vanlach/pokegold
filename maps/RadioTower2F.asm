@@ -115,17 +115,17 @@ RadioTower2FSuperNerdText:
 RadioTower2FTeacherText:
 	text "Lullabies on the"
 	line "radio may make"
-	cont "#MON sleep."
+	cont "#mon sleep."
 	done
 
 RadioTower2FTeacherText_Rockets:
 	text "Why would they"
 	line "want to take over"
-	cont "the RADIO TOWER?"
+	cont "the Radio Tower?"
 	done
 
 RadioTowerJigglypuffText:
-	text "JIGGLYPUFF:"
+	text "Jigglypuff:"
 	line "Jiggly…"
 	done
 
@@ -139,21 +139,21 @@ RadioTower2FBlackBelt1Text:
 
 	para "There's something"
 	line "wrong with the"
-	cont "DIRECTOR…"
+	cont "director…"
 	done
 
 RadioTower2FBlackBelt2Text:
 	text "Feel free to look"
 	line "around anywhere."
 
-	para "The DIRECTOR is"
+	para "The director is"
 	line "nice again, just"
 	cont "as he was before."
 	done
 
 GruntM4SeenText:
 	text "Three years ago,"
-	line "TEAM ROCKET was"
+	line "Team Rocket was"
 	cont "forced to disband."
 
 	para "But we're making a"
@@ -172,9 +172,9 @@ GruntM4AfterBattleText:
 	done
 
 GruntM5SeenText:
-	text "We're TEAM ROCKET,"
+	text "We're Team Rocket,"
 	line "the exploiters of"
-	cont "#MON!"
+	cont "#mon!"
 
 	para "We love being"
 	line "evil! Scared?"
@@ -201,7 +201,7 @@ GruntM6BeatenText:
 	done
 
 GruntM6AfterBattleText:
-	text "Our EXECUTIVES are"
+	text "Our executives are"
 	line "trying to take"
 	cont "this place over."
 
@@ -233,12 +233,12 @@ GruntF2AfterBattleText:
 	done
 
 RadioTower2FSalesSignText:
-	text "2F SALES"
+	text "2F Sales"
 	done
 
 RadioTower2FOaksPKMNTalkSignText:
-	text "PROF.OAK'S #MON"
-	line "TALK"
+	text "Prof.Oak's #mon"
+	line "Talk"
 
 	para "The Hottest Show"
 	line "on the Air!"
@@ -246,7 +246,7 @@ RadioTower2FOaksPKMNTalkSignText:
 
 RadioTower2FPokemonRadioSignText:
 	text "Anywhere, Anytime"
-	line "#MON Radio"
+	line "#mon Radio"
 	done
 
 RadioTower2F_MapEvents:

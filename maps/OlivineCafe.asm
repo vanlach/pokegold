@@ -26,7 +26,7 @@ OlivineCafeFishingGuruScript:
 	jumptextfaceplayer OlivineCafeFishingGuruText
 
 OlivineCafeStrengthSailorText:
-	text "Hah! Your #MON"
+	text "Hah! Your #mon"
 	line "sure look like"
 	cont "lightweights!"
 
@@ -36,12 +36,12 @@ OlivineCafeStrengthSailorText:
 
 	para "Here, use this"
 	line "and teach them"
-	cont "STRENGTH!"
+	cont "strength!"
 
 	para "You'll need"
-	line "GOLDENROD's GYM"
+	line "Goldenrod's gym"
 
-	para "BADGE to use that"
+	para "badge to use that"
 	line "outside battles."
 	done
 
@@ -62,9 +62,9 @@ OlivineCafeFishingGuruText:
 
 	para "There are whirl-"
 	line "pools on the way"
-	cont "to CIANWOOD."
+	cont "to Cianwood."
 
-	para "Your #MON must"
+	para "Your #mon must"
 	line "know a special"
 
 	para "move to get over"

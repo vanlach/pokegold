@@ -118,31 +118,31 @@ RuinsOfAlphOutsidePlayerEnterLabMovement:
 
 RuinsOfAlphOutsideScientistText:
 	text "Hm? That's a #-"
-	line "DEX, isn't it?"
+	line "dex, isn't it?"
 	cont "May I see it?"
 
 	para "There are so many"
-	line "kinds of #MON."
+	line "kinds of #mon."
 
 	para "Hm? What's this?"
 
 	para "What is this"
-	line "#MON?"
+	line "#mon?"
 
 	para "It looks like the"
 	line "strange writing on"
 
 	para "the walls of the"
-	line "RUINS."
+	line "ruins."
 
 	para "If those drawings"
 	line "are really #-"
-	cont "MON, there should"
+	cont "mon, there should"
 	cont "be many more."
 
 	para "I know! Let me up-"
 	line "grade your #-"
-	cont "DEX. Follow me."
+	cont "dex. Follow me."
 	done
 
 SuperNerdStanSeenText:
@@ -160,7 +160,7 @@ SuperNerdStanBeatenText:
 	done
 
 SuperNerdStanAfterBattleText:
-	text "The RUINS are from"
+	text "The ruins are from"
 	line "about 1500 years"
 	cont "ago."
 
@@ -169,7 +169,7 @@ SuperNerdStanAfterBattleText:
 
 	para "It's also not"
 	line "known if the #-"
-	cont "MON statues have"
+	cont "mon statues have"
 	cont "any meaning."
 
 	para "It's all one big"
@@ -191,21 +191,21 @@ PsychicNathanAfterBattleText:
 	done
 
 RuinsOfAlphOutsideMysteryChamberSignText:
-	text "MYSTERY STONE"
-	line "PANEL CHAMBER"
+	text "Mystery Stone"
+	line "Panel Chamber"
 	done
 
 RuinsOfAlphSignText:
-	text "RUINS OF ALPH"
+	text "Ruins of Alph"
 	line "Visitors Welcome"
 	done
 
 RuinsOfAlphResearchCenterSignText:
-	text "RUINS OF ALPH"
-	line "RESEARCH CENTER"
+	text "Ruins of Alph"
+	line "Research Center"
 
 	para "The Authority on"
-	line "the RUINS OF ALPH"
+	line "the Ruins of Alph"
 	done
 
 RuinsOfAlphOutside_MapEvents:

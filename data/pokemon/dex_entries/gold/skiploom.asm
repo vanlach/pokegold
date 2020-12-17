@@ -1,4 +1,4 @@
-	db "COTTONWEED@" ; species name
+	db "Cottonweed@" ; species name
 	dw 200, 20 ; height, weight
 
 	db   "The bloom on top"

@@ -1,4 +1,4 @@
-	db "GAS@" ; species name
+	db "Gas@" ; species name
 	dw 403, 2 ; height, weight
 
 	db   "Its thin body is"

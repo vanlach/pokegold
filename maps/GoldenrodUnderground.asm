@@ -420,12 +420,12 @@ GoldenrodUndergroundHiddenAntidote:
 
 SupernerdEricSeenText:
 	text "I got booted out"
-	line "of the GAME COR-"
-	cont "NER."
+	line "of the Game Cor-"
+	cont "ner."
 
 	para "I was trying to"
 	line "cheat using my"
-	cont "#MON…"
+	cont "#mon…"
 	done
 
 SupernerdEricBeatenText:
@@ -455,15 +455,15 @@ SupernerdTeruBeatenText:
 	done
 
 SupernerdTeruAfterBattleText:
-	text "I know my #MON"
+	text "I know my #mon"
 	line "type alignments."
 
 	para "But I only use one"
-	line "type of #MON."
+	line "type of #mon."
 	done
 
 PokemaniacIssacSeenText:
-	text "My #MON just"
+	text "My #mon just"
 	line "got haircuts!"
 
 	para "I'll show you how"
@@ -475,7 +475,7 @@ PokemaniacIssacBeatenText:
 	done
 
 PokemaniacIssacAfterBattleText:
-	text "Your #MON will"
+	text "Your #mon will"
 	line "like you more if"
 
 	para "you give them"
@@ -484,7 +484,7 @@ PokemaniacIssacAfterBattleText:
 
 PokemaniacDonaldSeenText:
 	text "I think you have"
-	line "some rare #MON"
+	line "some rare #mon"
 	cont "with you."
 
 	para "Let me see them!"
@@ -497,16 +497,16 @@ PokemaniacDonaldBeatenText:
 
 PokemaniacDonaldAfterBattleText:
 	text "Are you making a"
-	line "#DEX? Here's a"
+	line "#dex? Here's a"
 	cont "hot tip."
 
-	para "The HIKER on ROUTE"
-	line "33, ANTHONY, is a"
+	para "The hiker on Route"
+	line "33, Anthony, is a"
 	cont "good guy."
 
 	para "He'll phone you if"
 	line "he sees any rare"
-	cont "#MON."
+	cont "#mon."
 	done
 
 GoldenrodUndergroundTheDoorsLockedText:
@@ -518,22 +518,22 @@ GoldenrodUndergroundTheDoorIsOpenText:
 	done
 
 GoldenrodUndergroundBasementKeyOpenedDoorText:
-	text "The BASEMENT KEY"
+	text "The basement key"
 	line "opened the door."
 	done
 
 GoldenrodUndergroundOlderHaircutBrotherOfferHaircutText:
 	text "Welcome!"
 
-	para "I run the #MON"
-	line "SALON!"
+	para "I run the #mon"
+	line "Salon!"
 
 	para "I'm the older and"
 	line "better of the two"
-	cont "HAIRCUT BROTHERS."
+	cont "Haircut Brothers."
 
 	para "I can make your"
-	line "#MON beautiful"
+	line "#mon beautiful"
 	cont "for just ¥500."
 
 	para "Would you like me"
@@ -541,12 +541,12 @@ GoldenrodUndergroundOlderHaircutBrotherOfferHaircutText:
 	done
 
 GoldenrodUndergroundOlderHaircutBrotherAskWhichMonText:
-	text "Which #MON"
+	text "Which #mon"
 	line "should I work on?"
 	done
 
 GoldenrodUndergroundOlderHaircutBrotherWatchItBecomeBeautifulText:
-	text "OK! Watch it"
+	text "Ok! Watch it"
 	line "become beautiful!"
 	done
 
@@ -572,27 +572,27 @@ GoldenrodUndergroundOlderHaircutBrotherOneHaircutADayText:
 
 GoldenrodUndergroundYoungerHaircutBrotherOfferHaircutText:
 	text "Welcome to the"
-	line "#MON SALON!"
+	line "#mon Salon!"
 
 	para "I'm the younger"
 	line "and less expen-"
 	cont "sive of the two"
-	cont "HAIRCUT BROTHERS."
+	cont "Haircut Brothers."
 
 	para "I'll spiff up your"
-	line "#MON for just"
+	line "#mon for just"
 	cont "¥300."
 
 	para "So? How about it?"
 	done
 
 GoldenrodUndergroundYoungerHaircutBrotherAskWhichMonText:
-	text "OK, which #MON"
+	text "Ok, which #mon"
 	line "should I do?"
 	done
 
 GoldenrodUndergroundYoungerHaircutBrotherIllMakeItLookCoolText:
-	text "OK! I'll make it"
+	text "Ok! I'll make it"
 	line "look cool!"
 	done
 
@@ -643,8 +643,8 @@ GoldenrodUndergroundWeAreNotOpenTodayText:
 	done
 
 GoldenrodUndergroundNoEntryText:
-	text "NO ENTRY BEYOND"
-	line "THIS POINT"
+	text "No entry beyond"
+	line "this point"
 	done
 
 GoldenrodUnderground_MapEvents:

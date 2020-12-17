@@ -1,4 +1,4 @@
-	db "HERB@" ; species name
+	db "Herb@" ; species name
 	dw 511, 2220 ; height, weight
 
 	db   "The aroma that"

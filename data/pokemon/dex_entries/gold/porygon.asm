@@ -1,8 +1,8 @@
-	db "VIRTUAL@" ; species name
+	db "Virtual@" ; species name
 	dw 207, 800 ; height, weight
 
 	db   "It is a manmade"
-	next "#MON. Since it"
+	next "#mon. Since it"
 	next "doesn't breathe,"
 
 	page "people are eager"

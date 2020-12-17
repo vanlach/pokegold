@@ -282,12 +282,12 @@ NationalParkLassText:
 	para "I printed out my"
 	line "favorites from my"
 
-	para "#DEX and stuck"
+	para "#dex and stuck"
 	line "them on my bag."
 	done
 
 NationalParkPokefanFText:
-	text "This is MAIL I got"
+	text "This is mail I got"
 	line "from my daughter."
 	cont "It cheers me up."
 	done
@@ -303,7 +303,7 @@ NationalParkTeacher1Text:
 	line "time."
 
 	para "You must be a"
-	line "#MON trainer."
+	line "#mon trainer."
 
 	para "Since you're work-"
 	line "ing so hard, I"
@@ -313,8 +313,8 @@ NationalParkTeacher1Text:
 	done
 
 NationalParkTeacher1Text_GotQuickClaw:
-	text "Let a #MON hold"
-	line "that QUICK CLAW."
+	text "Let a #mon hold"
+	line "that Quick Claw."
 
 	para "Sometimes it will"
 	line "strike first"
@@ -324,18 +324,18 @@ NationalParkTeacher1Text_GotQuickClaw:
 NationalParkYoungster1Text:
 	text "I'm playing with"
 	line "stickers I printed"
-	cont "from my #DEX."
+	cont "from my #dex."
 	done
 
 NationalParkYoungster2Text:
 	text "I get the other"
-	line "guy's #DEX"
+	line "guy's #dex"
 	cont "sticker if I win."
 	done
 
 NationalParkTeacher2Text:
 	text "I take walks in"
-	line "the PARK, but I"
+	line "the park, but I"
 
 	para "never go into the"
 	line "grass."
@@ -345,23 +345,23 @@ NationalParkTeacher2Text:
 	done
 
 NationalParkPersianText:
-	text "PERSIAN: Fufushaa!"
+	text "Persian: Fufushaa!"
 	done
 
 NationalParkGameboyKidText:
 	text "I'm printing out"
-	line "my #DEX."
+	line "my #dex."
 
 	para "You can also print"
 	line "out stuff like"
 
-	para "MAIL and your PC"
-	line "BOXES."
+	para "mail and your PC"
+	line "boxes."
 	done
 
 SchoolboyJack1SeenText:
 	text "The world of"
-	line "#MON is deep."
+	line "#mon is deep."
 
 	para "There are still"
 	line "lots of things we"
@@ -384,12 +384,12 @@ SchoolboyJackTradeMonText:
 	para "There are 50 kinds"
 	line "of TM."
 
-	para "Traded #MON"
+	para "Traded #mon"
 	line "level up faster."
 	done
 
 PokefanfBeverly1SeenText:
-	text "My #MON are so"
+	text "My #mon are so"
 	line "cute. Let me show"
 	cont "them off to you."
 	done
@@ -404,28 +404,28 @@ PokefanfBeverly1BeatenText:
 
 PokefanBeverlyCuteMonText:
 	text "My friend has a"
-	line "MARILL. It's so"
+	line "Marill. It's so"
 
 	para "cute! I wish I had"
-	line "a MARILL."
+	line "a Marill."
 	done
 
 PokefanmWilliamSeenText:
 	text "We adore our #-"
-	line "MON, even if they"
+	line "mon, even if they"
 	cont "dislike us."
 
 	para "That's what being"
-	line "a FAN is about."
+	line "a fan is about."
 	done
 
 PokefanmWilliamBeatenText:
-	text "M-my #MON!"
+	text "M-my #mon!"
 	done
 
 PokefanmWilliamAfterBattleText:
 	text "I lost the battle,"
-	line "but my #MON win"
+	line "but my #mon win"
 
 	para "the prize for"
 	line "being most lovely."
@@ -452,8 +452,8 @@ LassKriseAfterBattleText:
 	done
 
 NationalParkRelaxationSquareText:
-	text "RELAXATION SQUARE"
-	line "NATIONAL PARK"
+	text "Relaxation Square"
+	line "National Park"
 	done
 
 NationalParkBattleNoticeText:
@@ -463,16 +463,16 @@ NationalParkBattleNoticeText:
 	para "Please battle only"
 	line "in the grass."
 
-	para "NATIONAL PARK"
-	line "WARDEN'S OFFICE"
+	para "National Park"
+	line "Warden's Office"
 	done
 
 NationalParkTrainerTipsText:
-	text "TRAINER TIPS"
+	text "Trainer Tips"
 
-	para "Print out MAIL by"
+	para "Print out mail by"
 	line "opening it then"
-	cont "pressing START."
+	cont "pressing start."
 	done
 
 NationalPark_MapEvents:

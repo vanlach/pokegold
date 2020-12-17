@@ -63,14 +63,14 @@ RandyScript:
 
 GiftSpearowMail:
 	db FLOWER_MAIL
-	db   "DARK CAVE leads"
+	db   "Dark Cave leads"
 	next "to another road@"
 
 GiftSpearowName:
-	db "KENYA@"
+	db "Kenya@"
 
 GiftSpearowOTName:
-	db "RANDY@"
+	db "Randy@"
 
 Route35GoldenrodGatePokefanFScript:
 	faceplayer
@@ -94,10 +94,10 @@ Route35GoldenrodGateRandyAskTakeThisMonToMyFriendText:
 	cont "a favor?"
 
 	para "Can you take this"
-	line "#MON with MAIL"
+	line "#mon with mail"
 	cont "to my friend?"
 
-	para "He's on ROUTE 31."
+	para "He's on Route 31."
 	done
 
 Route35GoldenrodGateRandyThanksText:
@@ -114,13 +114,13 @@ Route35GoldenrodGateRandyThanksText:
 
 Route35GoldenrodGatePlayerReceivedAMonWithMailText:
 	text "<PLAYER> received a"
-	line "#MON with MAIL."
+	line "#mon with mail."
 	done
 
 Route35GoldenrodGateRandyWeirdTreeBlockingRoadText:
 	text "You can read it,"
 	line "but don't lose it!"
-	cont "ROUTE 31!"
+	cont "Route 31!"
 
 	para "Oh, yeah. There"
 	line "was a weird tree"
@@ -132,7 +132,7 @@ Route35GoldenrodGateRandyWeirdTreeBlockingRoadText:
 
 Route35GoldenrodGateRandyCantCarryAnotherMonText:
 	text "You can't carry"
-	line "another #MON…"
+	line "another #mon…"
 	done
 
 Route35GoldenrodGateRandyOhNeverMindThenText:
@@ -166,11 +166,11 @@ Route35GoldenrodGatePokefanFText:
 	line "wild when someone"
 
 	para "watered it with a"
-	line "SQUIRTBOTTLE."
+	line "Squirtbottle."
 	done
 
 Route35GoldenrodGatePokefanFText_FoughtSudowoodo:
-	text "I like the #MON"
+	text "I like the #mon"
 	line "Lullaby they play"
 	cont "on the radio."
 	done

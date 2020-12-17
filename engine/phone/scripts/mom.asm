@@ -50,19 +50,19 @@ MomPhonePalette1:
 	getstring STRING_BUFFER_4, .text_sprout_tower
 	sjump MomPhoneLandmark
 .text_sprout_tower
-	db "SPROUT TOWER@"
+	db "Sprout Tower@"
 
 .azalea
 	getstring STRING_BUFFER_4, .text_slowpoke_well
 	sjump MomPhoneLandmark
 .text_slowpoke_well
-	db "SLOWPOKE WELL@"
+	db "Slowpoke Well@"
 
 .goldenrod
 	getstring STRING_BUFFER_4, .text_radio_tower
 	sjump MomPhoneLandmark
 .text_radio_tower
-	db "RADIO TOWER@"
+	db "Radio Tower@"
 
 MomPhonePalette2:
 	writetext MomOtherAreaText

@@ -1,9 +1,9 @@
-	db "HAPPINESS@" ; species name
+	db "Happiness@" ; species name
 	dw 411, 1030 ; height, weight
 
 	db   "Anyone who takes"
 	next "even one bite of"
-	next "BLISSEY's egg be-"
+	next "Blissey's egg be-"
 
 	page "comes unfailingly"
 	next "caring and pleas-"

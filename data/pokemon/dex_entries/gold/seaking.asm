@@ -1,8 +1,8 @@
-	db "GOLDFISH@" ; species name
+	db "Goldfish@" ; species name
 	dw 403, 860 ; height, weight
 
 	db   "During spawning"
-	next "season, SEAKING"
+	next "season, Seaking"
 	next "gather from all"
 
 	page "over, coloring"

@@ -1,4 +1,4 @@
-	db "HERMITCRAB@" ; species name
+	db "Hermitcrab@" ; species name
 	dw 503, 1730 ; height, weight
 
 	db   "Naturally dull to"
@@ -6,5 +6,5 @@
 	next "lost its ability"
 
 	page "to feel pain due"
-	next "to SHELLDER's"
+	next "to Shellder's"
 	next "seeping poison.@"

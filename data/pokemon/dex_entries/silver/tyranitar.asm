@@ -1,4 +1,4 @@
-	db "ARMOR@" ; species name
+	db "Armor@" ; species name
 	dw 611, 4450 ; height, weight
 
 	db   "Extremely strong,"

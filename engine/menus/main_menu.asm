@@ -66,12 +66,12 @@ ENDC
 
 .Strings:
 ; entries correspond to MAINMENUITEM_* constants
-	db "CONTINUE@"
-	db "NEW GAME@"
-	db "OPTION@"
-	db "MYSTERY GIFT@"
+	db "Continue@"
+	db "New Game@"
+	db "Option@"
+	db "Mystery Gift@"
 IF DEF(_DEBUG)
-	db "DEBUG ROOM@"
+	db "Debug Room@"
 ENDC
 
 .Jumptable:
@@ -228,7 +228,7 @@ MainMenu_PrintCurrentTimeAndDay:
 	ret
 
 .TimeNotSetString:
-	db "TIME NOT SET@"
+	db "Time not set@"
 
 .MainMenuTimeUnknownText: ; unreferenced
 	text_far _MainMenuTimeUnknownText
@@ -250,15 +250,15 @@ PrintDayOfWeek:
 	ret
 
 .Days:
-	db "SUN@"
-	db "MON@"
-	db "TUES@"
-	db "WEDNES@"
-	db "THURS@"
-	db "FRI@"
-	db "SATUR@"
+	db "Sun@"
+	db "Mon@"
+	db "Tues@"
+	db "Wednes@"
+	db "Thurs@"
+	db "Fri@"
+	db "Satur@"
 .Day:
-	db "DAY@"
+	db "day@"
 
 ClearTilemapEtc:
 	xor a

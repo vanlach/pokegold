@@ -154,15 +154,15 @@ Route39HiddenNugget:
 	hiddenitem NUGGET, EVENT_ROUTE_39_HIDDEN_NUGGET
 
 Route39MiltankText:
-	text "MILTANK: Mooo!"
+	text "Miltank: Mooo!"
 	done
 
 SailorEugeneSeenText:
 	text "I just got back to"
-	line "OLIVINE."
+	line "Olivine."
 
 	para "So how about a"
-	line "#MON battle?"
+	line "#mon battle?"
 	done
 
 SailorEugeneBeatenText:
@@ -170,7 +170,7 @@ SailorEugeneBeatenText:
 	done
 
 SailorEugeneAfterBattleText:
-	text "My #MON were"
+	text "My #mon were"
 	line "caught and raised"
 	cont "overseas."
 
@@ -182,7 +182,7 @@ SailorEugeneAfterBattleText:
 PokefanmDerekSeenText:
 	text "Would you mind if"
 	line "I bragged about"
-	cont "my #MON?"
+	cont "my #mon?"
 	done
 
 PokefanmDerekBeatenText:
@@ -194,7 +194,7 @@ PokefanMDerekText_NotBragging:
 	text "I'm not listening"
 	line "to your bragging!"
 
-	para "We # FANS have"
+	para "We # fans have"
 	line "a policy of not"
 
 	para "listening to other"
@@ -203,10 +203,10 @@ PokefanMDerekText_NotBragging:
 
 PokefanfRuthSeenText:
 	text "Such darling"
-	line "#MON."
+	line "#mon."
 
 	para "Let's show our"
-	line "#MON together"
+	line "#mon together"
 	cont "at the same time."
 	done
 
@@ -217,7 +217,7 @@ PokefanfRuthBeatenText:
 
 PokefanfRuthAfterBattleText:
 	text "Do you know about"
-	line "baby #MON?"
+	line "baby #mon?"
 
 	para "I bet they're just"
 	line "adorable!"
@@ -225,18 +225,18 @@ PokefanfRuthAfterBattleText:
 
 PsychicNormanSeenText:
 	text "Let me see what"
-	line "your #MON are"
+	line "your #mon are"
 	cont "capable of."
 	done
 
 PsychicNormanBeatenText:
-	text "Ooh, your #MON"
+	text "Ooh, your #mon"
 	line "have potential."
 	done
 
 PsychicNormanAfterBattleText:
 	text "You know how #-"
-	line "MON have different"
+	line "mon have different"
 	cont "abilities?"
 
 	para "People are like"
@@ -246,31 +246,31 @@ PsychicNormanAfterBattleText:
 	done
 
 Route39SignText:
-	text "ROUTE 39"
+	text "Route 39"
 
-	para "OLIVINE CITY -"
-	line "ECRUTEAK CITY"
+	para "Olivine City -"
+	line "Ecruteak City"
 	done
 
 MoomooFarmSignText:
-	text "MOOMOO FARM"
+	text "Moomoo Farm"
 
 	para "Enjoy Our Fresh"
 	line "and Tasty Milk"
 	done
 
 Route39TrainerTipsText:
-	text "TRAINER TIPS"
+	text "Trainer Tips"
 
-	para "Use HEADBUTT on"
+	para "Use headbutt on"
 	line "trees to shake"
-	cont "#MON out."
+	cont "#mon out."
 
 	para "Different kinds of"
-	line "#MON drop out"
+	line "#mon drop out"
 	cont "of trees."
 
-	para "Use HEADBUTT on"
+	para "Use headbutt on"
 	line "any tree you see!"
 	done
 

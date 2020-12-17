@@ -1,7 +1,7 @@
-	db "MOLD@" ; species name
+	db "Mold@" ; species name
 	dw 200, 450 ; height, weight
 
-	db   "It stores BERRIES"
+	db   "It stores berries"
 	next "inside its shell."
 	next "To avoid attacks,"
 

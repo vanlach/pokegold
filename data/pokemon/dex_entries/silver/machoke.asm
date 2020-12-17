@@ -1,4 +1,4 @@
-	db "SUPERPOWER@" ; species name
+	db "Superpower@" ; species name
 	dw 411, 1550 ; height, weight
 
 	db   "The muscles cover-"

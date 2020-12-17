@@ -1,4 +1,4 @@
-	db "SHADOW@" ; species name
+	db "Shadow@" ; species name
 	dw 411, 890 ; height, weight
 
 	db   "It steals heat"
@@ -7,4 +7,4 @@
 
 	page "a sudden chill, it"
 	next "is certain that a"
-	next "GENGAR appeared.@"
+	next "Gengar appeared.@"

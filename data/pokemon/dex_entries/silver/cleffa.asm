@@ -1,4 +1,4 @@
-	db "STARSHAPE@" ; species name
+	db "Starshape@" ; species name
 	dw 100, 70 ; height, weight
 
 	db   "When numerous me-"
@@ -6,5 +6,5 @@
 	next "the night sky,"
 
 	page "sightings of"
-	next "CLEFFA strangely"
+	next "Cleffa strangely"
 	next "increase.@"

@@ -1,4 +1,4 @@
-	db "FAIRY@" ; species name
+	db "Fairy@" ; species name
 	dw 407, 1070 ; height, weight
 
 	db   "Because its fangs"
@@ -6,5 +6,5 @@
 	next "always keeps its"
 
 	page "head tilted down."
-	next "However, its BITE"
+	next "However, its bite"
 	next "is powerful.@"

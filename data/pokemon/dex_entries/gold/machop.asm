@@ -1,4 +1,4 @@
-	db "SUPERPOWER@" ; species name
+	db "Superpower@" ; species name
 	dw 207, 430 ; height, weight
 
 	db   "Always brimming"

@@ -110,13 +110,13 @@ HikerAnthony2BeatenText:
 	done
 
 HikerAnthony2AfterText:
-	text "We HIKERS are at"
+	text "We hikers are at"
 	line "our best in the"
 	cont "mountains."
 	done
 
 Route33SignText:
-	text "ROUTE 33"
+	text "Route 33"
 	done
 
 Route33_MapEvents:

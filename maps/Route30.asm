@@ -193,9 +193,9 @@ Route30_MikeysRattataAttacksMovement:
 	step_end
 
 Text_UseTackle:
-	text "Go, RATTATA!"
+	text "Go, Rattata!"
 
-	para "TACKLE!"
+	para "Tackle!"
 	done
 
 Text_ThisIsABigBattle:
@@ -207,7 +207,7 @@ Text_ThisIsABigBattle:
 YoungsterJoey1SeenText:
 	text "I just lost, so"
 	line "I'm trying to find"
-	cont "more #MON."
+	cont "more #mon."
 
 	para "Wait! You look"
 	line "weak! Come on,"
@@ -216,12 +216,12 @@ YoungsterJoey1SeenText:
 
 YoungsterJoey1BeatenText:
 	text "Ugh. I don't have"
-	line "any more #MON."
+	line "any more #mon."
 	done
 
 YoungsterJoey1AfterText:
 	text "I have to have"
-	line "more #MON for"
+	line "more #mon for"
 	cont "battles."
 
 	para "I'm going to catch"
@@ -229,7 +229,7 @@ YoungsterJoey1AfterText:
 	done
 
 YoungsterMikeySeenText:
-	text "You're a #MON"
+	text "You're a #mon"
 	line "trainer, right?"
 
 	para "Then you have to"
@@ -253,7 +253,7 @@ YoungsterMikeyAfterText:
 
 BugCatcherDonSeenText:
 	text "Instead of a bug"
-	line "#MON, I found"
+	line "#mon, I found"
 	cont "a trainer!"
 	done
 
@@ -264,15 +264,15 @@ BugCatcherDonBeatenText:
 
 BugCatcherDonAfterText:
 	text "I ran out of #"
-	line "BALLS while I was"
-	cont "catching #MON."
+	line "Balls while I was"
+	cont "catching #mon."
 
 	para "I should've bought"
 	line "some more…"
 	done
 
 Route30YoungsterText_DirectionsToMrPokemonsHouse:
-	text "MR.#MON's"
+	text "Mr.#mon's"
 	line "house? It's a bit"
 	cont "farther ahead."
 	done
@@ -292,30 +292,30 @@ Route30CooltrainerFText:
 	done
 
 Route30SignText:
-	text "ROUTE 30"
+	text "Route 30"
 
-	para "VIOLET CITY -"
-	line "CHERRYGROVE CITY"
+	para "Violet City -"
+	line "Cherrygrove City"
 	done
 
 MrPokemonsHouseDirectionsSignText:
-	text "MR.#MON'S HOUSE"
+	text "Mr.#mon's house"
 	line "Straight Ahead!"
 	done
 
 MrPokemonsHouseSignText:
-	text "MR.#MON'S HOUSE"
+	text "Mr.#mon's House"
 	done
 
 Route30TrainerTipsText:
-	text "TRAINER TIPS"
+	text "Trainer Tips"
 
 	para "No stealing other"
-	line "people's #MON!"
+	line "people's #mon!"
 
-	para "# BALLS are to"
+	para "# Balls are to"
 	line "be thrown only at"
-	cont "wild #MON!"
+	cont "wild #mon!"
 	done
 
 Route30_MapEvents:

@@ -1,9 +1,9 @@
-	db "PSI@" ; species name
+	db "Psi@" ; species name
 	dw 211, 430 ; height, weight
 
 	db   "It senses impend-"
 	next "ing attacks and"
-	next "TELEPORTS away to"
+	next "Teleports away to"
 
 	page "safety before the"
 	next "actual attacks can"

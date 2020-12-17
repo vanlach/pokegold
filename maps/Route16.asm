@@ -20,7 +20,7 @@ CyclingRoadSign:
 	jumptext CyclingRoadSignText
 
 CyclingRoadSignText:
-	text "CYCLING ROAD"
+	text "Cycling Road"
 
 	para "Downhill Coasting"
 	line "All the Way!"

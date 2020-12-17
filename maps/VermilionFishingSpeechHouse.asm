@@ -16,15 +16,15 @@ FishingDudesHouseBookshelf: ; unreferenced
 	jumpstd PictureBookshelfScript
 
 FishingDudeText:
-	text "I am the FISHING"
-	line "GURU, the elder of"
-	cont "the FISHING BROS."
+	text "I am the fishing"
+	line "guru, the elder of"
+	cont "the fishing bros."
 
 	para "Do you happen to"
-	line "know FISHERMAN"
+	line "know fisherman"
 
-	para "WILTON? He fishes"
-	line "on ROUTE 44."
+	para "Wilton? He fishes"
+	line "on Route 44."
 
 	para "He came through"
 	line "with an amazing"
@@ -33,7 +33,7 @@ FishingDudeText:
 	para "Thanks to him, I"
 	line "caught a whole lot"
 
-	para "of a rare #MON."
+	para "of a rare #mon."
 	line "What a day it was!"
 	done
 

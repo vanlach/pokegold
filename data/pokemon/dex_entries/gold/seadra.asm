@@ -1,4 +1,4 @@
-	db "DRAGON@" ; species name
+	db "Dragon@" ; species name
 	dw 311, 550 ; height, weight
 
 	db   "An examination of"
@@ -6,5 +6,5 @@
 	next "the presence of a"
 
 	page "gene not found in"
-	next "HORSEA. It became"
+	next "Horsea. It became"
 	next "a hot topic.@"

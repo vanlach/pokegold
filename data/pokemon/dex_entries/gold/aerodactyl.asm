@@ -1,7 +1,7 @@
-	db "FOSSIL@" ; species name
+	db "Fossil@" ; species name
 	dw 511, 1300 ; height, weight
 
-	db   "A vicious #MON"
+	db   "A vicious #mon"
 	next "from the distant"
 	next "past, it appears"
 

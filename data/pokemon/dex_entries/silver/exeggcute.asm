@@ -1,4 +1,4 @@
-	db "EGG@" ; species name
+	db "Egg@" ; species name
 	dw 104, 60 ; height, weight
 
 	db   "Using telepathy"
@@ -7,4 +7,4 @@
 
 	page "always form a"
 	next "cluster of six"
-	next "EXEGGCUTE.@"
+	next "Exeggcute.@"

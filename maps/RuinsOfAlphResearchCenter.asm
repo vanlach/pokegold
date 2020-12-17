@@ -175,12 +175,12 @@ RuinsOfAlphResearchCenterModifiedDexText:
 	text "Done!"
 
 	para "I modified your"
-	line "#DEX."
+	line "#dex."
 
 	para "I added an"
-	line "optional #DEX"
+	line "optional #dex"
 
-	para "to store UNOWN"
+	para "to store Unown"
 	line "data."
 
 	para "It records them in"
@@ -189,12 +189,12 @@ RuinsOfAlphResearchCenterModifiedDexText:
 	done
 
 RuinsOfAlphResearchCenterDexUpgradedText:
-	text "<PLAYER>'s #DEX"
+	text "<PLAYER>'s #dex"
 	line "was upgraded."
 	done
 
 RuinsOfAlphResearchCenterScientist3Text:
-	text "The UNOWN you"
+	text "The Unown you"
 	line "catch will all be"
 	cont "recorded."
 
@@ -204,21 +204,21 @@ RuinsOfAlphResearchCenterScientist3Text:
 
 RuinsOfAlphResearchCenterScientist3_PrinterAvailable:
 	text "You caught all the"
-	line "UNOWN variations?"
+	line "Unown variations?"
 
 	para "That's a great"
 	line "achievement!"
 
 	para "I've set up the"
 	line "printer here for"
-	cont "handling UNOWN."
+	cont "handling Unown."
 
 	para "Feel free to use"
 	line "it anytime."
 	done
 
 RuinsOfAlphResearchCenterScientist1Text:
-	text "The RUINS are"
+	text "The ruins are"
 	line "about 1500 years"
 	cont "old."
 
@@ -229,13 +229,13 @@ RuinsOfAlphResearchCenterScientist1Text:
 
 RuinsOfAlphResearchCenterScientist1Text_GotUnownDex:
 	text "I wonder how many"
-	line "kinds of #MON"
-	cont "are in the RUINS?"
+	line "kinds of #mon"
+	cont "are in the ruins?"
 	done
 
 RuinsOfAlphResearchCenterScientist1Text_UnownAppeared:
-	text "#MON appeared"
-	line "in the RUINS?"
+	text "#mon appeared"
+	line "in the ruins?"
 
 	para "That's incredible"
 	line "news!"
@@ -249,18 +249,18 @@ RuinsOfAlphResearchCenterScientist2Text:
 	line "terns drawn on the"
 
 	para "walls of the"
-	line "RUINS."
+	line "ruins."
 
 	para "They must be the"
 	line "keys for unravel-"
 	cont "ing the mystery"
-	cont "of the RUINS."
+	cont "of the ruins."
 	done
 
 RuinsOfAlphResearchCenterScientist2Text_UnownAppeared:
 	text "The strange #-"
-	line "MON you saw in the"
-	cont "RUINS?"
+	line "mon you saw in the"
+	cont "ruins?"
 
 	para "They appear to be"
 	line "very much like the"
@@ -276,15 +276,15 @@ RuinsOfAlphResearchCenterScientist2Text_UnownAppeared:
 	done
 
 RuinsOfAlphResearchCenterComputerText:
-	text "RUINS OF ALPH"
+	text "Ruins of Alph"
 
 	para "Exploration"
 	line "Year 10"
 	done
 
 RuinsOfAlphResearchCenterComputerText_GotAllUnown:
-	text "Mystery #MON"
-	line "Name: UNOWN"
+	text "Mystery #mon"
+	line "Name: Unown"
 
 	para "A total of 26"
 	line "kinds found."
@@ -296,16 +296,16 @@ RuinsOfAlphResearchCenterPrinterText_DoesntWork:
 	done
 
 RuinsOfAlphResearchCenterUnownPrinterText:
-	text "UNOWN may be"
+	text "Unown may be"
 	line "printed out."
 	done
 
 RuinsOfAlphResearchCenterProfSilktreePhotoText:
 	text "It's a photo of"
-	line "the RESEARCH"
+	line "the Research"
 
-	para "CENTER'S founder,"
-	line "PROF.SILKTREE."
+	para "Center's founder,"
+	line "Prof.Silktree."
 	done
 
 RuinsOfAlphResearchCenterAcademicBooksText:

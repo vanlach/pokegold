@@ -1,4 +1,4 @@
-	db "LITTLEBIRD@" ; species name
+	db "Littlebird@" ; species name
 	dw 8, 40 ; height, weight
 
 	db   "It usually forages"

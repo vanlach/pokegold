@@ -1,4 +1,4 @@
-	db "EGG@" ; species name
+	db "Egg@" ; species name
 	dw 307, 760 ; height, weight
 
 	db   "It walks carefully"

@@ -25,7 +25,7 @@ BlackthornDragonSpeechHouseMagazineBookshelf: ; unreferenced
 	jumpstd MagazineBookshelfScript
 
 BlackthornDragonSpeechHouseGrannyText:
-	text "CLAIR and LANCE"
+	text "Clair and Lance"
 	line "trained here to"
 
 	para "hone their skills"
@@ -33,7 +33,7 @@ BlackthornDragonSpeechHouseGrannyText:
 	done
 
 BlackthornDragonSpeechHouseDratiniText:
-	text "DRATINI: Draa!"
+	text "Dratini: Draa!"
 	done
 
 BlackthornDragonSpeechHouse_MapEvents:

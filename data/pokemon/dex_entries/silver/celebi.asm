@@ -1,7 +1,7 @@
-	db "TIMETRAVEL@" ; species name
+	db "Timetravel@" ; species name
 	dw 200, 110 ; height, weight
 
-	db   "When CELEBI disap-"
+	db   "When Celebi disap-"
 	next "pears deep in a"
 	next "forest, it is said"
 

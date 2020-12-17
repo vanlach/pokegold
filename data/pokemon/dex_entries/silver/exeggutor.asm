@@ -1,4 +1,4 @@
-	db "COCONUT@" ; species name
+	db "Coconut@" ; species name
 	dw 607, 2650 ; height, weight
 
 	db   "If a head drops"
@@ -7,4 +7,4 @@
 
 	page "search of others"
 	next "to form an"
-	next "EXEGGCUTE cluster.@"
+	next "Exeggcute cluster.@"

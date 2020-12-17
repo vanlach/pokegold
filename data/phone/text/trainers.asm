@@ -118,7 +118,7 @@ PhoneFemaleGreetNiteText:
 
 PhoneMaleReallyEnergeticText:
 	text "How are your"
-	line "#MON doing?"
+	line "#mon doing?"
 
 	para "My @"
 	text_ram wStringBuffer4
@@ -129,7 +129,7 @@ PhoneMaleReallyEnergeticText:
 
 PhoneFemaleTopShapeText:
 	text "How are your"
-	line "#MON doing?"
+	line "#mon doing?"
 
 	para "I always keep my"
 	line "@"
@@ -137,7 +137,7 @@ PhoneFemaleTopShapeText:
 	text " in top"
 
 	para "shape by going to"
-	line "#MON CENTERS."
+	line "#mon Centers."
 	done
 
 PhoneMaleLookingAwesomeText:
@@ -234,7 +234,7 @@ PhoneFemaleWantsToBattleText:
 	para "@"
 	text_ram wStringBuffer5
 	text "."
-	line "Look for me, OK?"
+	line "Look for me, Ok?"
 	done
 
 PhoneWrongNumberKazText:
@@ -244,7 +244,7 @@ PhoneWrongNumberKazText:
 	text "…"
 
 	para "Uh-oh… You're not"
-	line "KAZ! Sorry, wrong"
+	line "Kaz! Sorry, wrong"
 	cont "number."
 	done
 
@@ -253,7 +253,7 @@ PhoneWrongNumberAudreyText:
 	line "@"
 	text_ram wStringBuffer3
 	text ". How are"
-	cont "you doing, AUDREY?"
+	cont "you doing, Audrey?"
 
 	para "Huh? <PLAYER>?"
 	line "Oops! My mistake!"
@@ -296,7 +296,7 @@ PhoneSwarmFishText:
 	line "is no tomorrow."
 
 	para "<PLAYER>, bring"
-	line "your ROD, buddy!"
+	line "your rod, buddy!"
 	done
 
 PhoneSwarmCaveText:
@@ -320,7 +320,7 @@ PhoneBugCatchingContestText:
 	line "the Bug-Catching"
 
 	para "Contest today at"
-	line "the PARK."
+	line "the park."
 
 	para "<PLAYER>, are you"
 	line "going to go?"
@@ -330,26 +330,26 @@ IrwinRocketTakeoverRumorText:
 	text "<PLAYER>, did you"
 	line "know?"
 
-	para "I hear GOLDENROD's"
-	line "RADIO TOWER was"
+	para "I hear Goldenrod's"
+	line "Radio Tower was"
 
-	para "taken over by TEAM"
-	line "ROCKET."
+	para "taken over by Team"
+	line "Rocket."
 
 	para "But what exactly"
-	line "is TEAM ROCKET?"
+	line "is Team Rocket?"
 	done
 
 GinaRocketTakeoverRumorText:
 	text "<PLAYER>, did you"
 	line "hear the news?"
 
-	para "TEAM ROCKET has"
+	para "Team Rocket has"
 	line "taken over the"
 
-	para "RADIO TOWER in"
-	line "GOLDENROD CITY."
+	para "Radio Tower in"
+	line "Goldenrod City."
 
 	para "I wonder if the"
-	line "workers are OK…"
+	line "workers are ok…"
 	done

@@ -1,9 +1,9 @@
-	db "JELLYFISH@" ; species name
+	db "Jellyfish@" ; species name
 	dw 211, 1000 ; height, weight
 
 	db   "When the tide goes"
 	next "out, dehydrated"
-	next "TENTACOOL remains"
+	next "Tentacool remains"
 
 	page "can be found"
 	next "washed up on the"

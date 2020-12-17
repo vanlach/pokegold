@@ -1,8 +1,8 @@
-	db "BALL@" ; species name
+	db "Ball@" ; species name
 	dw 108, 230 ; height, weight
 
 	db   "It was discovered"
-	next "when # BALLS"
+	next "when # balls"
 	next "were introduced."
 
 	page "It is said that"

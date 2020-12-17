@@ -1,8 +1,8 @@
-	db "FLYCATCHER@" ; species name
+	db "Flycatcher@" ; species name
 	dw 507, 340 ; height, weight
 
 	db   "This horrifying"
-	next "plant #MON at-"
+	next "plant #mon at-"
 	next "tracts prey with"
 
 	page "aromatic honey,"

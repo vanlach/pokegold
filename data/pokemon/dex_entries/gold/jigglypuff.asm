@@ -1,8 +1,8 @@
-	db "BALLOON@" ; species name
+	db "Balloon@" ; species name
 	dw 108, 120 ; height, weight
 
 	db   "If it inflates to"
-	next "SING a lullaby, it"
+	next "sing a lullaby, it"
 	next "can perform longer"
 
 	page "and cause sure"

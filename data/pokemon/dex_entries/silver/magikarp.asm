@@ -1,4 +1,4 @@
-	db "FISH@" ; species name
+	db "Fish@" ; species name
 	dw 211, 220 ; height, weight
 
 	db   "For no reason, it"
@@ -6,5 +6,5 @@
 	next "about, making it"
 
 	page "easy for predators"
-	next "like PIDGEOTTO to"
+	next "like Pidgeotto to"
 	next "catch it mid-jump.@"

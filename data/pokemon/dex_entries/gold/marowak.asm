@@ -1,4 +1,4 @@
-	db "BONEKEEPER@" ; species name
+	db "Bonekeeper@" ; species name
 	dw 303, 990 ; height, weight
 
 	db   "It has been seen"

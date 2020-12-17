@@ -214,7 +214,7 @@ FakeDirectorTextBefore2:
 
 	para "Do you want to"
 	line "know where we hid"
-	cont "the real DIRECTOR?"
+	cont "the real director?"
 
 	para "Sure, I'll tell"
 	line "you. But only if"
@@ -222,20 +222,20 @@ FakeDirectorTextBefore2:
 	done
 
 FakeDirectorWinText:
-	text "OK, OK. I'll tell"
+	text "Ok, ok. I'll tell"
 	line "you where he is."
 	done
 
 FakeDirectorTextAfter:
 	text "We stashed the"
-	line "real DIRECTOR in"
+	line "real director in"
 
-	para "the UNDERGROUND"
-	line "WAREHOUSE."
+	para "the Underground"
+	line "Warehouse."
 
 	para "It's at the far"
-	line "end of the UNDER-"
-	cont "GROUND."
+	line "end of the Under-"
+	cont "ground."
 
 	para "But I doubt you'll"
 	line "get that far."
@@ -245,8 +245,8 @@ Executivef1SeenText:
 	text "Hi, little boy."
 	line "Remember me from"
 
-	para "the HIDEOUT in"
-	line "MAHOGANY TOWN?"
+	para "the hideout in"
+	line "Mahogany Town?"
 
 	para "I lost then, but I"
 	line "won't this time."
@@ -267,7 +267,7 @@ Executivef1AfterBattleText:
 	line "won't appreciate"
 
 	para "the magnificence"
-	line "of TEAM ROCKET."
+	line "of Team Rocket."
 
 	para "That's too bad."
 	line "I really admire"
@@ -282,14 +282,14 @@ RadioTower5FRocketBossBeforeText:
 	line "the trainer."
 
 	para "We intend to take"
-	line "over this RADIO"
+	line "over this Radio"
 
-	para "STATION and an-"
+	para "Station and an-"
 	line "nounce our come-"
 	cont "back."
 
 	para "That should bring"
-	line "our boss GIOVANNI"
+	line "our boss Giovanni"
 
 	para "back from his solo"
 	line "training."
@@ -305,7 +305,7 @@ RadioTower5FRocketBossBeforeText:
 
 RadioTower5FRocketBossWinText:
 	text "No! Forgive me,"
-	line "GIOVANNI!"
+	line "Giovanni!"
 	done
 
 RadioTower5FRocketBossAfterText:
@@ -317,23 +317,23 @@ RadioTower5FRocketBossAfterText:
 	para "I wasn't up to the"
 	line "task after all."
 
-	para "Like GIOVANNI did"
+	para "Like Giovanni did"
 	line "before me, I will"
 
-	para "disband TEAM"
-	line "ROCKET here today."
+	para "disband Team"
+	line "Rocket here today."
 
 	para "Farewell."
 	done
 
 RadioTower5FDirectorThankYouText:
-	text "DIRECTOR: <PLAYER>,"
+	text "Director: <PLAYER>,"
 	line "thank you!"
 
 	para "Your courageous"
 	line "actions have saved"
 
-	para "#MON nation-"
+	para "#mon nation-"
 	line "wide."
 
 	para "I know it's not"
@@ -344,85 +344,85 @@ RadioTower5FDirectorThankYouText:
 RadioTower5FDirectorDescribeRainbowWingText:
 	text "There used to be a"
 	line "tower right here"
-	cont "in GOLDENROD CITY."
+	cont "in Goldenrod City."
 
 	para "But it was old and"
 	line "creaky."
 
 	para "So we replaced it"
-	line "with our RADIO"
-	cont "TOWER."
+	line "with our Radio"
+	cont "Tower."
 
 	para "During the tear-"
 	line "down, we found"
 	cont "that at the top."
 
 	para "I heard that giant"
-	line "#MON used to"
+	line "#mon used to"
 
-	para "fly over GOLDENROD"
+	para "fly over Goldenrod"
 	line "in the past."
 
 	para "Maybe that fell"
-	line "off a #MON."
+	line "off a #mon."
 
 	para "Maybe like the one"
 	line "that appears at"
 
-	para "TIN TOWER in"
-	line "ECRUTEAK CITY."
+	para "Tin Tower in"
+	line "Ecruteak City."
 
-	para "OK, I better go to"
-	line "my OFFICE."
+	para "Ok, I better go to"
+	line "my office."
 	done
 
 RadioTower5FDirectorDescribeSilverWingText:
 	text "There used to be a"
 	line "tower right here"
-	cont "in GOLDENROD CITY."
+	cont "in Goldenrod City."
 
 	para "But it was old and"
 	line "creaky."
 
 	para "So we replaced it"
-	line "with our RADIO"
-	cont "TOWER."
+	line "with our Radio"
+	cont "Tower."
 
 	para "During the tear-"
 	line "down, we found"
 	cont "that at the top."
 
 	para "I heard that giant"
-	line "#MON used to"
+	line "#mon used to"
 
-	para "fly over GOLDENROD"
+	para "fly over Goldenrod"
 	line "in the past."
 
 	para "Maybe that fell"
-	line "off a #MON."
+	line "off a #mon."
 
 	para "Maybe like the one"
 	line "that appears at"
 
-	para "WHIRL ISLANDS near"
-	line "CIANWOOD."
+	para "Whirl Islands near"
+	line "Cianwood."
 
-	para "OK, I better go to"
-	line "my OFFICE."
+	para "Ok, I better go to"
+	line "my office."
 	done
 
 RadioTower5FDirectorText:
-	text "DIRECTOR: Hello,"
+	text "Director: Hello,"
 	line "<PLAYER>!"
 
 	para "You know, I love"
-	line "#MON."
+	line "#mon."
 
-	para "I built this RADIO"
-	line "TOWER so I could"
+	para "I built this Radio"
+	line "Tower so I could"
 
 	para "express my love"
-	line "of #MON."
+	line "of #mon."
 
 	para "It would be nice"
 	line "if people enjoyed"
@@ -430,17 +430,17 @@ RadioTower5FDirectorText:
 	done
 
 BenText:
-	text "BEN: Do you listen"
+	text "Ben: Do you listen"
 	line "to our music?"
 	done
 
 RadioTower5FDirectorsOfficeSignText:
-	text "5F DIRECTOR'S"
-	line "   OFFICE"
+	text "5F Director's"
+	line "   Office"
 	done
 
 RadioTower5FStudio1SignText:
-	text "5F STUDIO 1"
+	text "5F Studio 1"
 	done
 
 RadioTower5F_MapEvents:

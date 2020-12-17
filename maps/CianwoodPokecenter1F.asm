@@ -33,15 +33,15 @@ CianwoodGymGuideScript:
 
 CianwoodPokecenter1FLassText:
 	text "Did you meet the"
-	line "#MANIAC?"
+	line "#maniac?"
 
 	para "He's always brag-"
 	line "ging about his"
-	cont "rare #MON."
+	cont "rare #mon."
 	done
 
 CianwoodGymGuideText:
-	text "The #MON GYM"
+	text "The #mon gym"
 	line "trainers here are"
 	cont "macho bullies."
 
@@ -50,17 +50,17 @@ CianwoodGymGuideText:
 	cont "after me."
 
 	para "Here's some ad-"
-	line "vice: the GYM"
+	line "vice: the gym"
 
-	para "LEADER uses the"
+	para "leader uses the"
 	line "fighting-type."
 
 	para "So you should"
 	line "confound him with"
-	cont "psychic #MON."
+	cont "psychic #mon."
 
 	para "Wipe out his #-"
-	line "MON before they"
+	line "mon before they"
 
 	para "can use their"
 	line "physical strength."

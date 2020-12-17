@@ -236,7 +236,7 @@ HikerErikSeenText:
 	line "anything!"
 
 	para "Let me see if your"
-	line "#MON have been"
+	line "#mon have been"
 	cont "raised properly!"
 	done
 
@@ -246,9 +246,9 @@ HikerErikBeatenText:
 
 HikerErikAfterBattleText:
 	text "I'll head back to"
-	line "BLACKTHORN's ICE"
+	line "Blackthorn's Ice"
 
-	para "PATH and train"
+	para "Path and train"
 	line "some more."
 	done
 
@@ -262,22 +262,22 @@ HikerMichaelSeenText:
 	done
 
 HikerMichaelBeatenText:
-	text "My #MON weren't"
+	text "My #mon weren't"
 	line "spunky enough!"
 	done
 
 HikerMichaelAfterBattleText:
 	text "Boy, do I love"
-	line "HP UP! Mmmm, yum!"
+	line "HP Up! Mmmm, yum!"
 
 	para "I keep drinking my"
-	line "#MON's!"
+	line "#mon's!"
 
 	para "I can't help it!"
 	done
 
 HikerParry3SeenText:
-	text "My #MON are"
+	text "My #mon are"
 	line "power packed!"
 	done
 
@@ -302,7 +302,7 @@ HikerTimothySeenText:
 	line "there."
 
 	para "Why do I train"
-	line "#MON?"
+	line "#mon?"
 
 	para "Because they're"
 	line "there!"
@@ -318,7 +318,7 @@ HikerTimothyAfterBattleText:
 	line "ever happen to me"
 
 	para "was discovering"
-	line "#MON."
+	line "#mon."
 	done
 
 BlackbeltKenjiSeenText:
@@ -345,7 +345,7 @@ BlackbeltKenjiAfterBattleText:
 CooltrainermRyanSeenText:
 	text "What are your"
 	line "thoughts on rais-"
-	cont "ing #MON?"
+	cont "ing #mon?"
 	done
 
 CooltrainermRyanBeatenText:
@@ -355,7 +355,7 @@ CooltrainermRyanBeatenText:
 
 CooltrainermRyanAfterBattleText:
 	text "I see you're rais-"
-	line "ing your #MON"
+	line "ing your #mon"
 	cont "with care."
 
 	para "The bond you build"
@@ -383,17 +383,17 @@ CooltrainerfKellyAfterBattleText:
 
 	para "I want to win, but"
 	line "I also don't want"
-	cont "to harm #MON."
+	cont "to harm #mon."
 	done
 
 Route45DummyText: ; unreferenced
 	text "I'm pretty good at"
-	line "#MON too."
+	line "#mon too."
 	done
 
 Route45SignText:
-	text "ROUTE 45"
-	line "MOUNTAIN RD. AHEAD"
+	text "Route 45"
+	line "Mountain Rd. Ahead"
 	done
 
 Route45_MapEvents:

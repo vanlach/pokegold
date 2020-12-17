@@ -1,4 +1,4 @@
-	db "MOUSE@" ; species name
+	db "Mouse@" ; species name
 	dw 303, 650 ; height, weight
 
 	db   "If it digs at an"

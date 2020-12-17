@@ -128,27 +128,27 @@ MovementDragonsDen_ClairWalksAway:
 	step_end
 
 ClairText_GiveDragonbreathDragonDen:
-	text "CLAIR: All right."
+	text "Clair: All right."
 	line "I recognize your"
 
 	para "true power. This"
-	line "BADGE is yours."
+	line "badge is yours."
 	done
 
 DragonShrinePlayerReceivedRisingBadgeText:
 	text "<PLAYER> received"
-	line "RISINGBADGE."
+	line "Risingbadge."
 	done
 
 DragonShrineRisingBadgeExplanationText:
-	text "RISINGBADGE will"
+	text "Risingbadge will"
 	line "enable your"
 
-	para "#MON to use the"
+	para "#mon to use the"
 	line "move for climbing"
 	cont "waterfalls."
 
-	para "Also, all #MON"
+	para "Also, all #mon"
 	line "will recognize you"
 
 	para "as a trainer and"
@@ -168,7 +168,7 @@ Text_ReceivedTM24: ; unreferenced
 
 ClairText_DescribeDragonbreathDragonDen:
 	text "That contains"
-	line "DRAGONBREATH."
+	line "Dragonbreath."
 
 	para "No, it doesn't"
 	line "have anything to"
@@ -182,27 +182,27 @@ ClairText_DescribeDragonbreathDragonDen:
 ClairText_CollectedAllBadges:
 	text "So, you've col-"
 	line "lected all the"
-	cont "BADGES."
+	cont "badges."
 
 	para "Your destination"
-	line "is the #MON"
+	line "is the #mon"
 
-	para "LEAGUE in INDIGO"
-	line "PLATEAU."
+	para "League in Indigo"
+	line "Plateau."
 
 	para "Do you know how to"
 	line "get there?"
 
 	para "From here, go to"
-	line "NEW BARK TOWN."
+	line "New Bark Town."
 
-	para "Then SURF east."
+	para "Then Surf east."
 	line "The route there is"
 	cont "very tough."
 
 	para "Don't you dare"
 	line "lose at the #-"
-	cont "MON LEAGUE!"
+	cont "mon League!"
 
 	para "If you do, I'll"
 	line "feel even worse"
@@ -212,13 +212,13 @@ ClairText_CollectedAllBadges:
 	done
 
 DragonShrineSignpostText:
-	text "DRAGON SHRINE"
+	text "Dragon Shrine"
 
 	para "A shrine honoring"
-	line "the dragon #MON"
+	line "the dragon #mon"
 
 	para "said to have lived"
-	line "in DRAGON'S DEN."
+	line "in Dragon's Den."
 	done
 
 SilverText_Training1:
@@ -228,7 +228,7 @@ SilverText_Training1:
 	para "…No, I won't"
 	line "battle you now…"
 
-	para "My #MON aren't"
+	para "My #mon aren't"
 	line "ready to beat you."
 
 	para "I can't push them"
@@ -238,7 +238,7 @@ SilverText_Training1:
 	line "ciplined to become"
 
 	para "the greatest #-"
-	line "MON trainer…"
+	line "mon trainer…"
 	done
 
 SilverText_Training2:

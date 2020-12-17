@@ -1,4 +1,4 @@
-	db "LONG BODY@" ; species name
+	db "Long Body@" ; species name
 	dw 511, 720 ; height, weight
 
 	db   "There is no tell-"
@@ -7,4 +7,4 @@
 
 	page "its short legs, it"
 	next "is quick at hunt-"
-	next "ing RATTATA.@"
+	next "ing Rattata.@"

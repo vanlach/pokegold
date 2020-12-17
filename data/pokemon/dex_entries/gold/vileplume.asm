@@ -1,4 +1,4 @@
-	db "FLOWER@" ; species name
+	db "Flower@" ; species name
 	dw 311, 410 ; height, weight
 
 	db   "It has the world's"

@@ -1,7 +1,7 @@
-	db "FLYCATCHER@" ; species name
+	db "Flycatcher@" ; species name
 	dw 507, 340 ; height, weight
 
-	db   "ACID that has dis-"
+	db   "Acid that has dis-"
 	next "solved many prey"
 	next "becomes sweeter,"
 

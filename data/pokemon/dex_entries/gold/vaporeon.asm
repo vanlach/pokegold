@@ -1,7 +1,7 @@
-	db "BUBBLE JET@" ; species name
+	db "Bubble Jet@" ; species name
 	dw 303, 640 ; height, weight
 
-	db   "When VAPOREON's"
+	db   "When Vaporeon's"
 	next "fins begin to vi-"
 	next "brate, it is a"
 

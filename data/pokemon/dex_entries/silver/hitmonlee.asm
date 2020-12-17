@@ -1,4 +1,4 @@
-	db "KICKING@" ; species name
+	db "Kicking@" ; species name
 	dw 411, 1100 ; height, weight
 
 	db   "If it starts kick-"

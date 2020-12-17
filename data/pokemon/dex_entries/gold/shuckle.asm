@@ -1,7 +1,7 @@
-	db "MOLD@" ; species name
+	db "Mold@" ; species name
 	dw 200, 450 ; height, weight
 
-	db   "The BERRIES it"
+	db   "The berries it"
 	next "stores in its"
 	next "vase-like shell"
 

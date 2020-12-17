@@ -1,4 +1,4 @@
-	db "AQUARABBIT@" ; species name
+	db "Aquarabbit@" ; species name
 	dw 207, 630 ; height, weight
 
 	db   "When it plays in"

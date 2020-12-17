@@ -1,7 +1,7 @@
-	db "VOLCANO@" ; species name
+	db "Volcano@" ; species name
 	dw 607, 4370 ; height, weight
 
-	db   "A #MON that"
+	db   "A #mon that"
 	next "races across the"
 	next "land. It is said"
 

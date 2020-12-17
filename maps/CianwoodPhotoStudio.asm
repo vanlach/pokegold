@@ -27,7 +27,7 @@ CianwoodPhotoStudioFishingGuruScript:
 
 CianwoodPhotoStudioFishingGuruText_Question:
 	text "You have magnifi-"
-	line "cent #MON with"
+	line "cent #mon with"
 	cont "you."
 
 	para "How about a photo"
@@ -35,7 +35,7 @@ CianwoodPhotoStudioFishingGuruText_Question:
 	done
 
 CianwoodPhotoStudioFishingGuruText_Yes:
-	text "OK! Big smile now!"
+	text "Ok! Big smile now!"
 	done
 
 CianwoodPhotoStudioFishingGuruText_No:

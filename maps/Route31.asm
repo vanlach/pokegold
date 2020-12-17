@@ -167,7 +167,7 @@ Route31MailRecipientScript:
 	end
 
 ReceivedSpearowMailText:
-	db   "DARK CAVE leads"
+	db   "Dark Cave leads"
 	next "to another road@"
 
 Route31YoungsterScript:

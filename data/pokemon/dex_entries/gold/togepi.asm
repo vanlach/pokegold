@@ -1,4 +1,4 @@
-	db "SPIKE BALL@" ; species name
+	db "Spike Ball@" ; species name
 	dw 100, 30 ; height, weight
 
 	db   "The shell seems to"

@@ -107,13 +107,13 @@ BillsHouseRadio:
 	jumpstd Radio2Script
 
 BillTakeThisEeveeText:
-	text "BILL: Hi, <PLAYER>!"
+	text "Bill: Hi, <PLAYER>!"
 	line "Do us a favor and"
-	cont "take this EEVEE."
+	cont "take this Eevee."
 
 	para "It came over when"
 	line "I was adjusting"
-	cont "the TIME CAPSULE."
+	cont "the Time Capsule."
 
 	para "Someone has to"
 	line "take care of it,"
@@ -127,7 +127,7 @@ BillTakeThisEeveeText:
 	done
 
 BillImCountingOnYouText:
-	text "BILL: I knew it!"
+	text "Bill: I knew it!"
 	line "Way to go, hero!"
 
 	para "You're the real"
@@ -140,12 +140,12 @@ BillImCountingOnYouText:
 
 ReceivedEeveeText:
 	text "<PLAYER> received"
-	line "EEVEE!"
+	line "Eevee!"
 	done
 
 BillEeveeMayEvolveText:
-	text "BILL: PROF.ELM"
-	line "claims EEVEE may"
+	text "Bill: Prof.Elm"
+	line "claims Eevee may"
 
 	para "evolve in new and"
 	line "unknown ways."
@@ -154,7 +154,7 @@ BillEeveeMayEvolveText:
 BillPartyFullText:
 	text "Whoa, wait. You"
 	line "can't carry any"
-	cont "more #MON."
+	cont "more #mon."
 	done
 
 BillNoEeveeText:
@@ -163,9 +163,9 @@ BillNoEeveeText:
 	done
 
 BillPopWontWorkText:
-	text "BILL: I used to"
+	text "Bill: I used to"
 	line "experiment with a"
-	cont "TELEPORTER."
+	cont "teleporter."
 
 	para "I ought to do a"
 	line "follow-up."
@@ -173,14 +173,14 @@ BillPopWontWorkText:
 
 BillsMomText_BeforeEcruteak:
 	text "Oh, you collect"
-	line "#MON? My son"
-	cont "BILL is an expert."
+	line "#mon? My son"
+	cont "Bill is an expert."
 
 	para "He had to leave"
-	line "for the #MON"
+	line "for the #mon"
 
-	para "CENTER in ECRUTEAK"
-	line "CITY."
+	para "Center in Ecruteak"
+	line "City."
 	done
 
 BillsMomText_AfterEcruteak:
@@ -198,16 +198,16 @@ BillsSisterUsefulNumberText:
 
 RecordedBillsNumberText:
 	text "<PLAYER> recorded"
-	line "BILL's number."
+	line "Bill's number."
 	done
 
 BillsSisterRefusedNumberText:
 	text "My brother made"
-	line "the PC #MON"
+	line "the PC #mon"
 	cont "storage system."
 
 	para "I was going to"
-	line "give you BILL's"
+	line "give you Bill's"
 	cont "number…"
 	done
 
@@ -218,9 +218,9 @@ BillsSisterPhoneFullText:
 
 BillsSisterStorageSystemText:
 	text "My big brother"
-	line "BILL made the PC"
+	line "Bill made the PC"
 
-	para "#MON storage"
+	para "#mon storage"
 	line "system."
 	done
 

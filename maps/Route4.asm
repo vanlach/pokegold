@@ -54,7 +54,7 @@ Route4HiddenUltraBall:
 BirdKeeperHankSeenText:
 	text "There's been news"
 	line "of an incident at"
-	cont "the POWER PLANT."
+	cont "the Power Plant."
 	done
 
 BirdKeeperHankBeatenText:
@@ -64,8 +64,8 @@ BirdKeeperHankBeatenText:
 
 BirdKeeperHankAfterBattleText:
 	text "I might go to the"
-	line "POWER PLANT. Is it"
-	cont "near ROCK TUNNEL?"
+	line "Power Plant. Is it"
+	cont "near Rock Tunnel?"
 	done
 
 PicnickerHopeSeenText:
@@ -82,8 +82,8 @@ PicnickerHopeBeatenText:
 	done
 
 PicnickerHopeAfterBattleText:
-	text "I heard CLEFAIRY"
-	line "appear at MT.MOON."
+	text "I heard Clefairy"
+	line "appear at Mt.Moon."
 
 	para "But where could"
 	line "they be?"
@@ -104,7 +104,7 @@ PicnickerSharonAfterBattleText:
 	done
 
 MtMoonSquareSignText:
-	text "MT.MOON SQUARE"
+	text "Mt.Moon Square"
 
 	para "Just go up the"
 	line "stairs."

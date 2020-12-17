@@ -148,15 +148,15 @@ BlackthornGymStatue:
 	jumpstd GymStatue2Script
 
 ClairIntroText:
-	text "I am CLAIR. I'm"
+	text "I am Clair. I'm"
 	line "the world's best"
 	cont "dragon master."
 
 	para "I can hold my own"
 	line "against even the"
 
-	para "#MON LEAGUE's"
-	line "ELITE FOUR."
+	para "#mon League's"
+	line "Elite Four."
 
 	para "Do you still want"
 	line "to take me on?"
@@ -187,21 +187,21 @@ ClairText_GoToDragonsDen:
 	line "but you're still"
 
 	para "not ready for the"
-	line "#MON LEAGUE."
+	line "#mon League."
 
 	para "I know. You should"
 	line "take the dragon"
 	cont "user challenge."
 
-	para "Behind this GYM is"
+	para "Behind this gym is"
 	line "a place called"
-	cont "DRAGON'S DEN."
+	cont "Dragon's Den."
 
 	para "Go and bring me"
-	line "the DRAGON FANG"
+	line "the Dragon Fang"
 
 	para "from deep inside"
-	line "the DEN."
+	line "the den."
 
 	para "That is the test"
 	line "to be accepted as"
@@ -216,11 +216,11 @@ ClairText_GoToDragonsDen:
 
 	para "Until then, I"
 	line "won't give you a"
-	cont "BADGE."
+	cont "badge."
 	done
 
 ClairText_WhatsTheMatter:
-	text "CLAIR: What's"
+	text "Clair: What's"
 	line "the matter?"
 
 	para "This errand won't"
@@ -231,9 +231,9 @@ ClairText_WhatsTheMatter:
 	done
 
 BlackthornGymClairText_Cheat:
-	text "CLAIR: You did"
+	text "Clair: You did"
 	line "not get that at"
-	cont "DRAGON'S DEN."
+	cont "Dragon's Den."
 
 	para "Trying to cheat"
 	line "like that…"
@@ -243,7 +243,7 @@ BlackthornGymClairText_Cheat:
 	done
 
 BlackthornGymClairText_YouKeptMeWaiting:
-	text "CLAIR: You have"
+	text "Clair: You have"
 	line "proven yourself to"
 	cont "me."
 
@@ -258,7 +258,7 @@ BlackthornGymText_ReceivedTM24: ; unreferenced
 
 BlackthornGymClairText_DescribeTM24:
 	text "That contains"
-	line "DRAGONBREATH."
+	line "Dragonbreath."
 
 	para "No, it doesn't"
 	line "have anything to"
@@ -272,27 +272,27 @@ BlackthornGymClairText_DescribeTM24:
 BlackthornGymClairText_League:
 	text "So you've col-"
 	line "lected all the"
-	cont "BADGES."
+	cont "badges."
 
 	para "Your destination"
-	line "is the #MON"
+	line "is the #mon"
 
-	para "LEAGUE in INDIGO"
-	line "PLATEAU."
+	para "League in Indigo"
+	line "Plateau."
 
 	para "Do you know how to"
 	line "get there?"
 
 	para "From here, go to"
-	line "NEW BARK TOWN."
+	line "New Bark Town."
 
-	para "Then SURF east."
+	para "Then Surf east."
 	line "The route there is"
 	cont "very tough."
 
 	para "Don't you dare"
 	line "lose at the #-"
-	cont "MON LEAGUE!"
+	cont "mon League!"
 
 	para "If you do, I'll"
 	line "feel even worse"
@@ -314,7 +314,7 @@ CooltrainermPaulBeatenText:
 	done
 
 CooltrainermPaulAfterBattleText:
-	text "You've met LANCE,"
+	text "You've met Lance,"
 	line "the dragon master?"
 
 	para "That just can't be"
@@ -341,7 +341,7 @@ CooltrainermMikeAfterBattleText:
 
 CooltrainerfLolaSeenText:
 	text "Dragons are sacred"
-	line "#MON."
+	line "#mon."
 
 	para "They are full of"
 	line "life energy."
@@ -364,7 +364,7 @@ CooltrainerfLolaAfterBattleText:
 	done
 
 BlackthornGymGuideText:
-	text "Yo! CHAMP in"
+	text "Yo! Champ in"
 	line "making!"
 
 	para "It's been a long"
@@ -373,10 +373,10 @@ BlackthornGymGuideText:
 	para "are almost done!"
 	line "Count on me!"
 
-	para "CLAIR uses the"
+	para "Clair uses the"
 	line "mythical and sac-"
 	cont "red dragon-type"
-	cont "#MON."
+	cont "#mon."
 
 	para "You can't damage"
 	line "them very easily."
@@ -390,15 +390,15 @@ BlackthornGymGuideText:
 
 BlackthornGymGuideWinText:
 	text "You were great to"
-	line "beat CLAIR!"
+	line "beat Clair!"
 
 	para "All that's left is"
-	line "the #MON LEAGUE"
+	line "the #mon League"
 	cont "challenge."
 
 	para "You're on the way"
 	line "to becoming the"
-	cont "#MON CHAMPION!"
+	cont "#mon Champion!"
 	done
 
 BlackthornGym1F_MapEvents:

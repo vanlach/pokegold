@@ -1,4 +1,4 @@
-	db "JET@" ; species name
+	db "Jet@" ; species name
 	dw 211, 630 ; height, weight
 
 	db   "It traps enemies"

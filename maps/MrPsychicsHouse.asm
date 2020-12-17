@@ -39,10 +39,10 @@ MrPsychicText1:
 	done
 
 MrPsychicText2:
-	text "TM29 is PSYCHIC."
+	text "TM29 is Psychic."
 
 	para "It may lower the"
-	line "target's SPECIAL"
+	line "target's Special"
 	cont "abilities."
 	done
 

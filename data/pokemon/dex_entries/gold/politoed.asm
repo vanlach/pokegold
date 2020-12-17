@@ -1,8 +1,8 @@
-	db "FROG@" ; species name
+	db "Frog@" ; species name
 	dw 307, 750 ; height, weight
 
-	db   "If POLIWAG and"
-	next "POLIWHIRL hear its"
+	db   "If Poliwag and"
+	next "Poliwhirl hear its"
 	next "echoing cry, they"
 
 	page "respond by gather-"

@@ -1,4 +1,4 @@
-	db "SUPERPOWER@" ; species name
+	db "Superpower@" ; species name
 	dw 411, 1550 ; height, weight
 
 	db   "It always goes at"
@@ -6,5 +6,5 @@
 	next "but this very"
 
 	page "tough and durable"
-	next "#MON never gets"
+	next "#mon never gets"
 	next "tired.@"

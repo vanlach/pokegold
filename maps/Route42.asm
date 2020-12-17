@@ -151,7 +151,7 @@ Route42HiddenMaxPotion:
 FisherChrisSeenText:
 	text "Let me demonstrate"
 	line "the power of the"
-	cont "#MON I caught!"
+	cont "#mon I caught!"
 	done
 
 FisherChrisBeatenText:
@@ -161,9 +161,9 @@ FisherChrisBeatenText:
 
 FisherChrisAfterBattleText:
 	text "I want to become"
-	line "the trainer CHAMP"
+	line "the trainer champ"
 
-	para "using the #MON"
+	para "using the #mon"
 	line "I caught."
 
 	para "That's the best"
@@ -189,7 +189,7 @@ HikerBenjaminAfterBattleText:
 	done
 
 PokemaniacShaneSeenText:
-	text "HEY!"
+	text "Hey!"
 
 	para "This is my secret"
 	line "place! Get lost,"
@@ -198,47 +198,47 @@ PokemaniacShaneSeenText:
 
 PokemaniacShaneBeatenText:
 	text "I should have used"
-	line "my MOON STONE…"
+	line "my Moon Stone…"
 	done
 
 PokemaniacShaneAfterBattleText:
 	text "You're working on"
-	line "a #DEX?"
+	line "a #dex?"
 
 	para "Wow, you must know"
 	line "some pretty rare"
-	cont "#MON!"
+	cont "#mon!"
 
 	para "May I please see"
 	line "it. Please?"
 	done
 
 Route42Sign1Text:
-	text "ROUTE 42"
+	text "Route 42"
 
-	para "ECRUTEAK CITY -"
-	line "MAHOGANY TOWN"
+	para "Ecruteak City -"
+	line "Mahogany Town"
 	done
 
 MtMortarSign1Text:
-	text "MOUNT MORTAR"
+	text "Mount Mortar"
 
-	para "WATERFALL CAVE"
+	para "Waterfall Cave"
 	line "Inside"
 	done
 
 MtMortarSign2Text:
-	text "MOUNT MORTAR"
+	text "Mount Mortar"
 
-	para "WATERFALL CAVE"
+	para "Waterfall Cave"
 	line "Inside"
 	done
 
 Route42Sign2Text:
-	text "ROUTE 42"
+	text "Route 42"
 
-	para "ECRUTEAK CITY -"
-	line "MAHOGANY TOWN"
+	para "EcruteaK City -"
+	line "Mahogany Town"
 	done
 
 Route42_MapEvents:

@@ -1,8 +1,8 @@
-	db "FLAME@" ; species name
+	db "Flame@" ; species name
 	dw 607, 1320 ; height, weight
 
 	db   "This legendary"
-	next "bird #MON is"
+	next "bird #mon is"
 	next "said to bring"
 
 	page "early spring to"

@@ -1,4 +1,4 @@
-	db "SCUFFLE@" ; species name
+	db "Scuffle@" ; species name
 	dw 204, 460 ; height, weight
 
 	db   "Even though it is"

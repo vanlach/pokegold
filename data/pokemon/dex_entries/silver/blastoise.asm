@@ -1,4 +1,4 @@
-	db "SHELLFISH@" ; species name
+	db "Shellfish@" ; species name
 	dw 503, 1890 ; height, weight
 
 	db   "The rocket cannons"

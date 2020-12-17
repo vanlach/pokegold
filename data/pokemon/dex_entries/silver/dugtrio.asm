@@ -1,8 +1,8 @@
-	db "MOLE@" ; species name
+	db "Mole@" ; species name
 	dw 204, 730 ; height, weight
 
 	db   "Extremely power-"
-	next "ful, they can DIG"
+	next "ful, they can dig"
 	next "through even the"
 
 	page "hardest ground to"

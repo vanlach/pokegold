@@ -1,7 +1,7 @@
-	db "VIRTUAL@" ; species name
+	db "Virtual@" ; species name
 	dw 207, 800 ; height, weight
 
-	db   "A manmade #MON"
+	db   "A manmade #mon"
 	next "that came about as"
 	next "a result of re-"
 

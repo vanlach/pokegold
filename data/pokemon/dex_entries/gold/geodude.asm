@@ -1,4 +1,4 @@
-	db "ROCK@" ; species name
+	db "Rock@" ; species name
 	dw 104, 440 ; height, weight
 
 	db   "Most people may"
@@ -7,4 +7,4 @@
 
 	page "should reveal that"
 	next "there are many"
-	next "GEODUDE around.@"
+	next "Geodude around.@"

@@ -1,4 +1,4 @@
-	db "BALLOON@" ; species name
+	db "Balloon@" ; species name
 	dw 303, 260 ; height, weight
 
 	db   "It has a very fine"
@@ -7,4 +7,4 @@
 
 	page "or it may inflate"
 	next "steadily and hit"
-	next "with a BODY SLAM.@"
+	next "with a body slam.@"

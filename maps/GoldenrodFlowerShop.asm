@@ -55,18 +55,18 @@ FlowerShopRadio: ; unreferenced
 
 GoldenrodFlowerShopTeacherBetterThanWhitneyText:
 	text "Oh, you're better"
-	line "than WHITNEY."
+	line "than Whitney."
 
 	para "Do you know about"
 	line "that moving tree?"
 
 	para "If you wet it with"
-	line "a SQUIRTBOTTLE, it"
+	line "a Squirtbottle, it"
 	cont "attacks."
 
 	para "But since you"
-	line "have some BADGES,"
-	cont "you should be OK."
+	line "have some badges,"
+	cont "you should be ok."
 	done
 
 GoldenrodFlowerShopTeacherLalalaHavePlentyOfWaterText:
@@ -79,16 +79,16 @@ GoldenrodFlowerShopFloriaMustBeAMonText:
 	text "When I watered"
 	line "that moving tree"
 
-	para "on ROUTE 36, it"
+	para "on Route 36, it"
 	line "jumped!"
 
 	para "I think it must be"
-	line "a #MON."
+	line "a #mon."
 
 	para "But it would take"
-	line "someone like WHIT-"
-	cont "NEY, our GYM LEAD-"
-	cont "ER, to beat it."
+	line "someone like Whit-"
+	cont "ney, our gym lead-"
+	cont "er, to beat it."
 	done
 
 GoldenrodFlowerShopFloriaJumpsInSurpriseText:

@@ -1,4 +1,4 @@
-	db "FROG@" ; species name
+	db "Frog@" ; species name
 	dw 307, 750 ; height, weight
 
 	db   "Whenever three or"

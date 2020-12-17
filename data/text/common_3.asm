@@ -87,8 +87,8 @@ _SpaceSpaceColonText:: ; unreferenced
 	done
 
 _PasswordAskResetText::
-	text "Password OK."
-	line "Select CONTINUE &"
+	text "Password Ok."
+	line "Select continue &"
 	cont "reset settings."
 	prompt
 
@@ -226,19 +226,19 @@ _CardFlipDarnText::
 
 _BallDodgedText::
 	text "It dodged the"
-	line "thrown BALL!"
+	line "thrown ball!"
 
-	para "This #MON"
+	para "This #mon"
 	line "can't be caught!"
 	prompt
 
 _BallMissedText::
 	text "You missed the"
-	line "#MON!"
+	line "#mon!"
 	prompt
 
 _BallBrokeFreeText::
-	text "Oh no! The #MON"
+	text "Oh no! The #mon"
 	line "broke free!"
 	prompt
 
@@ -274,14 +274,14 @@ _WaitButtonText::
 _BallSentToPCText::
 	text_ram wMonOrItemNameBuffer
 	text " was"
-	line "sent to BILL's PC."
+	line "sent to Bill's PC."
 	prompt
 
 _NewDexDataText::
 	text_ram wEnemyMonNick
 	text "'s data"
 	line "was newly added to"
-	cont "the #DEX.@"
+	cont "the #dex.@"
 	sound_slot_machine_start
 	text_promptbutton
 	text_end
@@ -303,18 +303,18 @@ _ItemStatRoseText::
 
 _ItemCantUseOnMonText::
 	text "That can't be used"
-	line "on this #MON."
+	line "on this #mon."
 	prompt
 
 _RepelUsedEarlierIsStillInEffectText::
-	text "The REPEL used"
+	text "The repel used"
 	line "earlier is still"
 	cont "in effect."
 	prompt
 
 _PlayedFluteText::
 	text "Played the #"
-	line "FLUTE."
+	line "flute."
 
 	para "Now, that's a"
 	line "catchy tune!"
@@ -322,12 +322,12 @@ _PlayedFluteText::
 
 _FluteWakeUpText::
 	text "All sleeping"
-	line "#MON woke up."
+	line "#mon woke up."
 	prompt
 
 Text_PlayedPokeFlute::
 	text "<PLAYER> played the"
-	line "# FLUTE.@"
+	line "# flute.@"
 	text_promptbutton
 	text_end
 
@@ -384,11 +384,11 @@ _ItemLooksBitterText::
 
 _ItemCantUseOnEggText::
 	text "That can't be used"
-	line "on an EGG."
+	line "on an egg."
 	prompt
 
 _ItemOakWarningText::
-	text "OAK: <PLAYER>!"
+	text "Oak: <PLAYER>!"
 	line "This isn't the"
 	cont "time to use that!"
 	prompt
@@ -405,7 +405,7 @@ _ItemWontHaveEffectText::
 
 _BallBlockedText::
 	text "The trainer"
-	line "blocked the BALL!"
+	line "blocked the ball!"
 	prompt
 
 _BallDontBeAThiefText::
@@ -425,7 +425,7 @@ _ItemCantGetOnText::
 	prompt
 
 _BallBoxFullText::
-	text "The #MON BOX"
+	text "The #mon box"
 	line "is full. That"
 	cont "can't be used now."
 	prompt
@@ -461,7 +461,7 @@ _KnowsMoveText::
 	prompt
 
 _MoveKnowsOneText::
-	text "That #MON knows"
+	text "That #mon knows"
 	line "only one move."
 	done
 
@@ -473,12 +473,12 @@ _AskDeleteMoveText::
 	done
 
 _DeleterForgotMoveText::
-	text "Done! Your #MON"
+	text "Done! Your #mon"
 	line "forgot the move."
 	done
 
 _DeleterEggText::
-	text "An EGG doesn't"
+	text "An egg doesn't"
 	line "know any moves!"
 	done
 
@@ -494,27 +494,27 @@ _DeleterAskWhichMoveText::
 
 _DeleterIntroText::
 	text "Um… Oh, yes, I'm"
-	line "the MOVE DELETER."
+	line "the Move Deleter."
 
-	para "I can make #MON"
+	para "I can make #mon"
 	line "forget moves."
 
 	para "Shall I make a"
-	line "#MON forget?"
+	line "#mon forget?"
 	done
 
 _DeleterAskWhichMonText::
-	text "Which #MON?"
+	text "Which #mon?"
 	prompt
 
 _DSTIsThatOKText::
 	text " DST,"
-	line "is that OK?"
+	line "is that Ok?"
 	done
 
 _TimeAskOkayText::
 	text ","
-	line "is that OK?"
+	line "is that Ok?"
 	done
 
 _TimesetAskDSTText::
@@ -550,7 +550,7 @@ _TimesetAskAdjustDSTText::
 _MomLostGearBookletText::
 	text "I lost the in-"
 	line "struction booklet"
-	cont "for the #GEAR."
+	cont "for the #gear."
 
 	para "Come back again in"
 	line "a while."

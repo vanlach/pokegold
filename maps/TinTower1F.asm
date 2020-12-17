@@ -14,27 +14,27 @@ TinTowerSageText:
 	line "cover the secret"
 
 	para "of the legendary"
-	line "#MON that is"
+	line "#mon that is"
 	cont "said to land here."
 
 	para "They say that the"
-	line "#MON has flown"
+	line "#mon has flown"
 
 	para "continuously ever"
-	line "since the TOWER in"
+	line "since the tower in"
 	cont "the West burned."
 
 	para "So, I thought that"
 	line "if I had what the"
 
-	para "#MON has, it"
+	para "#mon has, it"
 	line "would be attracted"
 	cont "by that item."
 
 	para "I think that item"
 	line "is probably…"
 
-	para "A RAINBOW WING!"
+	para "A Rainbow Wing!"
 
 	para "But, where would"
 	line "I find one?"

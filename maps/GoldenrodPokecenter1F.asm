@@ -28,10 +28,10 @@ GoldenrodPokecenter1FLassScript:
 	jumptextfaceplayer GoldenrodPokecenter1FLassText
 
 GoldenrodPokecenter1FGameboyKidText:
-	text "The COLOSSEUM--"
+	text "The Colosseum--"
 	line "upstairs at any"
 
-	para "#MON CENTER--is"
+	para "#mon Center--is"
 	line "for link battles." 
 
 	para "Battle records are"
@@ -43,13 +43,13 @@ GoldenrodPokecenter1FGameboyKidText:
 
 GoldenrodPokecenter1FPersonText:
 	text "I wonder how many"
-	line "kinds of #MON"
+	line "kinds of #mon"
 
 	para "there are in the"
 	line "world."
 
 	para "Three years ago,"
-	line "PROF.OAK said that"
+	line "Prof.Oak said that"
 
 	para "there were 150"
 	line "different kinds."
@@ -57,7 +57,7 @@ GoldenrodPokecenter1FPersonText:
 
 GoldenrodPokecenter1FLassText:
 	text "A higher level"
-	line "#MON doesn't"
+	line "#mon doesn't"
 	cont "always win."
 
 	para "After all, it may"
@@ -67,7 +67,7 @@ GoldenrodPokecenter1FLassText:
 	para "I don't think"
 	line "there is a single"
 
-	para "#MON that is"
+	para "#mon that is"
 	line "the toughest."
 	done
 

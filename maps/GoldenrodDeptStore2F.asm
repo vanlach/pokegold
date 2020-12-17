@@ -41,16 +41,16 @@ GoldenrodDeptStore2FElevatorButton:
 
 GoldenrodDeptStore2FUnusedText1: ; unreferenced
 	text "We intend to sell"
-	line "items for #MON"
+	line "items for #mon"
 	cont "to hold."
 
 	para "This is a free"
 	line "gift. Have a #-"
-	cont "MON hold it."
+	cont "mon hold it."
 	done
 
 GoldenrodDeptStore2FUnusedText2: ; unreferenced
-	text "Giving #MON"
+	text "Giving #mon"
 	line "items to hold dur-"
 	cont "ing battle could "
 	cont "tip the scales in"
@@ -58,7 +58,7 @@ GoldenrodDeptStore2FUnusedText2: ; unreferenced
 	done
 
 GoldenrodDeptStore2FYoungsterText:
-	text "#GEAR can store"
+	text "#gear can store"
 	line "up to ten phone"
 	cont "numbers."
 
@@ -68,18 +68,18 @@ GoldenrodDeptStore2FYoungsterText:
 	done
 
 GoldenrodDeptStore2FCooltrainerFText:
-	text "I got my ABRA at"
-	line "the GAME CORNER."
+	text "I got my Abra at"
+	line "the Game Corner."
 
 	para "Now it's my best"
 	line "partner."
 	done
 
 GoldenrodDeptStore2FGentlemanText:
-	text "This DEPT.STORE"
+	text "This Dept.Store"
 	line "makes me realize"
 
-	para "that GOLDENROD is"
+	para "that Goldenrod is"
 	line "a big city."
 
 	para "The selection here"
@@ -91,8 +91,8 @@ GoldenrodDeptStore2FDirectoryText:
 	text "Your Travel"
 	line "Companion"
 
-	para "2F TRAINER'S"
-	line "   MARKET"
+	para "2F Trainer's"
+	line "   Market"
 	done
 
 GoldenrodDeptStore2F_MapEvents:

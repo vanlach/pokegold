@@ -74,19 +74,19 @@ _DebugRoom:
 
 .Strings:
 ; entries correspond to DEBUGROOMMENUITEM_* constants
-	db "SP CLEAR@"
-	db "WIN WORK CLR@"
-	db "#MON GET!@"
-	db "#DEX COMP@"
-	db "TIMER RESET@"
-	db "DECORATE ALL@"
-	db "ITEM GET!@"
-	db "RTC EDIT@"
-	db "NEXT@"
-	db "GB ID SET@"
-	db "BTL REC CLR@"
-	db "#DEX CLR@"
-	db "HALT CHK CLR@"
+	db "SP Clear@"
+	db "Win Work Clr@"
+	db "#mon Get!@"
+	db "#dex Comp@"
+	db "Timer Reset@"
+	db "Decorate All@"
+	db "Item Get!@"
+	db "RTC Edit@"
+	db "Next@"
+	db "GB ID Set@"
+	db "BTL Rec Clr@"
+	db "#dex Clr@"
+	db "Halt Chk Clr@"
 
 .Jumptable:
 ; entries correspond to DEBUGROOMMENUITEM_* constants
@@ -919,8 +919,8 @@ DebugRoomMenu_ItemGet_Page1Values:
 	paged_value wDebugRoomItemID,       1, NUM_POKEMON, MASTER_BALL, .ItemNameString, DebugRoom_PrintItemName, FALSE
 	paged_value wDebugRoomItemQuantity, 1, 99,          1,           .NumberString,   NULL,                    FALSE
 
-.ItemNameString: db "ITEM NAME@"
-.NumberString:   db "NUMBER@"
+.ItemNameString: db "Item Name@"
+.NumberString:   db "Number@"
 
 DebugRoomMenu_PokemonGet:
 	ld hl, .PagedValuesHeader
@@ -1034,17 +1034,17 @@ DebugRoom_SavePokemon:
 	ret
 
 .OTString:
-	db "DEBUG▶OT@"
+	db "Debug▶OT@"
 
 .NicknameString:
-	db "DEBUG▶<PK><MN>@"
+	db "Debug▶<PK><MN>@"
 
 .CompletedText:
-	text "COMPLETED!"
+	text "Completed!"
 	done
 
 .BoxIsFullText:
-	text "BOX IS FULL!"
+	text "Box is Full!"
 	done
 
 DebugRoom_PrintPokemonName:
@@ -1139,39 +1139,39 @@ DebugRoomMenu_PokemonGet_Page4Values:
 	paged_value wDebugRoomMonBox,           1,   NUM_BOXES,   $0e,            DebugRoom_BoxStructStrings.SendBox,   NULL,                       FALSE
 
 DebugRoom_BoxStructStrings:
-.Pokemon:   db "#MON@"
-.Item:      db "ITEM@"
-.Move1:     db "MOVE 1@"
-.Move2:     db "MOVE 2@"
-.Move3:     db "MOVE 3@"
-.Move4:     db "MOVE 4@"
+.Pokemon:   db "#mon@"
+.Item:      db "Item@"
+.Move1:     db "Move 1@"
+.Move2:     db "Move 2@"
+.Move3:     db "Move 3@"
+.Move4:     db "Move 4@"
 .ID0:       db "ID[0]@"
 .ID1:       db "ID[1]@"
-.BaseExp0:  db "BASE EXP[0]@" ; unreferenced
-.BaseExp1:  db "BASE EXP[1]@" ; unreferenced
-.BaseExp2:  db "BASE EXP[2]@" ; unreferenced
-.HPExp0:    db "HP EXP[0]@"
-.HPExp1:    db "HP EXP[1]@"
-.AttkExp0:  db "ATTK EXP[0]@"
-.AttkExp1:  db "ATTK EXP[1]@"
-.DfnsExp0:  db "DFNS EXP[0]@"
-.DfnsExp1:  db "DFNS EXP[1]@"
-.SpeedExp0: db "SPEED EXP[0]@"
-.SpeedExp1: db "SPEED EXP[1]@"
-.SpclExp0:  db "SPCL EXP[0]@"
-.SpclExp1:  db "SPCL EXP[1]@"
-.PowerRnd0: db "POWER RND[0]<LF>  RARE:--1-1010@"
-.PowerRnd1: db "POWER RND[1]<LF>  RARE:10101010@"
+.BaseExp0:  db "Base Exp[0]@" ; unreferenced
+.BaseExp1:  db "Base Exp[1]@" ; unreferenced
+.BaseExp2:  db "Base Exp[2]@" ; unreferenced
+.HPExp0:    db "HP Exp[0]@"
+.HPExp1:    db "HP Exp[1]@"
+.AttkExp0:  db "Attk Exp[0]@"
+.AttkExp1:  db "Attk Exp[1]@"
+.DfnsExp0:  db "Dfns Exp[0]@"
+.DfnsExp1:  db "Dfns Exp[1]@"
+.SpeedExp0: db "Speed Exp[0]@"
+.SpeedExp1: db "Speed Exp[1]@"
+.SpclExp0:  db "Spcl Exp[0]@"
+.SpclExp1:  db "Spcl Exp[1]@"
+.PowerRnd0: db "Power Rnd[0]<LF>  Rare:--1-1010@"
+.PowerRnd1: db "Power Rnd[1]<LF>  Rare:10101010@"
 .PP1:       db "PP 1@"
 .PP2:       db "PP 2@"
 .PP3:       db "PP 3@"
 .PP4:       db "PP 4@"
-.Friend:    db "FRIEND@"
-.Pokerus:   db "#RUS@"
-.NoUse0:    db "NO USE[0]@"
-.NoUse1:    db "NO USE[1]@"
-.Level:     db "LEVEL@"
-.SendBox:   db "SEND BOX@"
+.Friend:    db "Friend@"
+.Pokerus:   db "#rus@"
+.NoUse0:    db "No Use[0]@"
+.NoUse1:    db "No Use[1]@"
+.Level:     db "Level@"
+.SendBox:   db "Send Box@"
 
 DebugRoom_BoxAddresses:
 	dba sBox1
@@ -1244,7 +1244,7 @@ DebugRoomMenu_RTCEdit_UpdateClock:
 	ret
 
 DebugRoom_DayHTimeString:
-	db "DAY     H<LF>TIME@"
+	db "Day     H<LF>Time@"
 
 DebugRoom_GetClock:
 	ld a, SRAM_ENABLE
@@ -1290,11 +1290,11 @@ DebugRoomMenu_RTCEdit_Page1Values:
 	paged_value wDebugRoomRTCDay+0, $00, $ff,    0, .DayLString,   NULL, TRUE
 	paged_value wDebugRoomRTCDay+1, $00, $ff,    0, .DayHString,   NULL, TRUE
 
-.SecondString: db "SECOND@"
-.MinuteString: db "MINUTE@"
-.HourString:   db "HOUR@"
-.DayLString:   db "DAY L@"
-.DayHString:   db "DAY H<LF> BIT0:DAY MSB<LF> BIT6:HALT<LF> BIT7:DAY CARRY@"
+.SecondString: db "Second@"
+.MinuteString: db "Minute@"
+.HourString:   db "Hour@"
+.DayLString:   db "Day L@"
+.DayHString:   db "Day H<LF> BIT0:Day MSB<LF> BIT6:Halt<LF> BIT7:Day Carry@"
 
 DebugRoomMenu_HaltChkClr:
 	call YesNoBox
@@ -1338,10 +1338,10 @@ DebugRoom_PrintRTCHaltChk:
 	db "RTC:@"
 
 .OKString:
-	db "  OK@"
+	db "  Ok@"
 
 .HaltString:
-	db "HALT@"
+	db "Halt@"
 
 DebugRoomMenu_GBIDSet:
 	ld hl, .PagedValuesHeader

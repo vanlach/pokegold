@@ -1,7 +1,7 @@
-	db "THUNDER@" ; species name
+	db "Thunder@" ; species name
 	dw 603, 3920 ; height, weight
 
-	db   "A #MON that"
+	db   "A #mon that"
 	next "races across the"
 	next "land while barking"
 

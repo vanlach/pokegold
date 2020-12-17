@@ -119,7 +119,7 @@ CeladonPrizeRoom_TMMenuHeader:
 	db "TM32    1500@"
 	db "TM29    3500@"
 	db "TM15    7500@"
-	db "CANCEL@"
+	db "Cancel@"
 
 CeladonGameCornerPrizeRoomPokemonVendor:
 	faceplayer
@@ -202,13 +202,13 @@ CeladonGameCornerPrizeRoomPokemonVendor:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "MR.MIME    3333@"
-	db "EEVEE      6666@"
-	db "PORYGON    9999@"
-	db "CANCEL@"
+	db "Mr.Mime    3333@"
+	db "Eevee      6666@"
+	db "Porygon    9999@"
+	db "Cancel@"
 
 CeladonGameCornerPrizeRoomGentlemanText:
-	text "I wanted MR.MIME,"
+	text "I wanted Mr.Mime,"
 	line "but I was short by"
 	cont "100 coins…"
 	done
@@ -238,7 +238,7 @@ CeladonPrizeRoom_AskWhichPrizeText:
 	done
 
 CeladonPrizeRoom_ConfirmPurchaseText:
-	text "OK, so you wanted"
+	text "Ok, so you wanted"
 	line "a @"
 	text_ram wStringBuffer3
 	text "?"
@@ -265,7 +265,7 @@ CeladonPrizeRoom_ComeAgainText:
 
 CeladonPrizeRoom_NoCoinCaseText:
 	text "Oh? You don't have"
-	line "a COIN CASE."
+	line "a coin case."
 	done
 
 CeladonGameCornerPrizeRoom_MapEvents:

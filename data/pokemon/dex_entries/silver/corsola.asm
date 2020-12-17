@@ -1,4 +1,4 @@
-	db "CORAL@" ; species name
+	db "Coral@" ; species name
 	dw 200, 110 ; height, weight
 
 	db   "In a south sea"
@@ -7,4 +7,4 @@
 
 	page "ties that are"
 	next "built on groups of"
-	next "these #MON.@"
+	next "these #mon.@"

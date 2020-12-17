@@ -1,4 +1,4 @@
-	db "LAVA@" ; species name
+	db "Lava@" ; species name
 	dw 207, 1210 ; height, weight
 
 	db   "The shell on its"

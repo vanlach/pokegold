@@ -1,4 +1,4 @@
-	db "MAGNET@" ; species name
+	db "Magnet@" ; species name
 	dw 100, 130 ; height, weight
 
 	db   "It is attracted by"
@@ -7,4 +7,4 @@
 
 	page "approach trainers"
 	next "if they are using"
-	next "their #GEAR.@"
+	next "their #gear.@"

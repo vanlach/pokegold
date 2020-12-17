@@ -1,8 +1,8 @@
-	db "WATER FISH@" ; species name
+	db "Water Fish@" ; species name
 	dw 407, 1650 ; height, weight
 
 	db   "This carefree"
-	next "#MON has an"
+	next "#mon has an"
 	next "easy-going nature."
 
 	page "While swimming, it"

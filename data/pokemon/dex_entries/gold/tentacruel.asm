@@ -1,10 +1,10 @@
-	db "JELLYFISH@" ; species name
+	db "Jellyfish@" ; species name
 	dw 503, 1210 ; height, weight
 
 	db   "Its 80 tentacles"
 	next "absorb water and"
 	next "stretch almost"
 
-	page "endlessly to CON-"
-	next "STRICT its prey"
+	page "endlessly to con-"
+	next "strict its prey"
 	next "and enemies.@"

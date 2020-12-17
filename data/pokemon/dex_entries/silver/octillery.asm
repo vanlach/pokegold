@@ -1,4 +1,4 @@
-	db "JET@" ; species name
+	db "Jet@" ; species name
 	dw 211, 630 ; height, weight
 
 	db   "It instinctively"
@@ -7,4 +7,4 @@
 
 	page "sleepy, it steals"
 	next "the nest of a fel-"
-	next "low OCTILLERY.@"
+	next "low Octillery.@"

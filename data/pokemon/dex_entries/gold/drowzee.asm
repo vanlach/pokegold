@@ -1,4 +1,4 @@
-	db "HYPNOSIS@" ; species name
+	db "Hypnosis@" ; species name
 	dw 303, 710 ; height, weight
 
 	db   "If you think that"
@@ -6,5 +6,5 @@
 	next "dream, but you"
 
 	page "can't remember it,"
-	next "a DROWZEE has"
+	next "a Drowzee has"
 	next "probably eaten it.@"

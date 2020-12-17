@@ -1,4 +1,4 @@
-	db "STARSHAPE@" ; species name
+	db "Starshape@" ; species name
 	dw 100, 70 ; height, weight
 
 	db   "Because of its"

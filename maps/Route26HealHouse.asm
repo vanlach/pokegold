@@ -29,7 +29,7 @@ Route26HealHouseBookshelf:
 	jumpstd PictureBookshelfScript
 
 Route26HealHouseRestAWhileText:
-	text "Your #MON look"
+	text "Your #mon look"
 	line "a little tired."
 
 	para "You should rest"
@@ -39,7 +39,7 @@ Route26HealHouseRestAWhileText:
 Route26HealHouseKeepAtItText:
 	text "There!"
 
-	para "Your #MON are"
+	para "Your #mon are"
 	line "looking good!"
 
 	para "Keep at it!"

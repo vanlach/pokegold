@@ -139,12 +139,12 @@ MortyIntroText:
 	text "Good of you to"
 	line "have come."
 
-	para "Here in ECRUTEAK,"
-	line "#MON have been"
+	para "Here in Ecruteak,"
+	line "#mon have been"
 	cont "revered."
 
 	para "It's said that"
-	line "legendary #MON"
+	line "legendary #mon"
 
 	para "will appear to the"
 	line "truly powerful"
@@ -167,7 +167,7 @@ MortyIntroText:
 
 	para "a future in which"
 	line "I meet the legen-"
-	cont "dary #MON."
+	cont "dary #mon."
 
 	para "You're going to"
 	line "help me reach that"
@@ -179,23 +179,23 @@ MortyWinLossText:
 	line "enough yet…"
 
 	para "All right. This"
-	line "BADGE is yours."
+	line "badge is yours."
 	done
 
 Text_ReceivedFogBadge:
 	text "<PLAYER> received"
-	line "FOGBADGE."
+	line "Fogbadge."
 	done
 
 MortyText_FogBadgeSpeech:
-	text "By having FOG-"
-	line "BADGE, #MON up"
+	text "By having Fog-"
+	line "badge, #mon up"
 
 	para "to L50 will obey"
 	line "you."
 
-	para "Also, #MON that"
-	line "know SURF will be"
+	para "Also, #mon that"
+	line "know Surf will be"
 
 	para "able to use that"
 	line "move anytime."
@@ -205,11 +205,11 @@ MortyText_FogBadgeSpeech:
 	done
 
 MortyText_ShadowBallSpeech:
-	text "It's SHADOW BALL."
+	text "It's Shadow Ball."
 	line "It causes damage"
 
 	para "and may reduce"
-	line "SPCL.DEF."
+	line "Spcl.Def."
 
 	para "Use it if it"
 	line "appeals to you."
@@ -232,7 +232,7 @@ MortyFightDoneText:
 
 SageJeffreySeenText:
 	text "I spent the spring"
-	line "with my #MON."
+	line "with my #mon."
 
 	para "Then summer, fall"
 	line "and winter…"
@@ -250,14 +250,14 @@ SageJeffreyBeatenText:
 	done
 
 SageJeffreyAfterBattleText:
-	text "Where did #MON"
+	text "Where did #mon"
 	line "come from?"
 	done
 
 SagePingSeenText:
 	text "Can you inflict"
 	line "any damage on our"
-	cont "#MON?"
+	cont "#mon?"
 	done
 
 SagePingBeatenText:
@@ -266,7 +266,7 @@ SagePingBeatenText:
 
 SagePingAfterBattleText:
 	text "We use only ghost-"
-	line "type #MON."
+	line "type #mon."
 
 	para "No normal-type"
 	line "attack can harm"
@@ -318,7 +318,7 @@ EcruteakGymGuideText:
 	line "may tell you some"
 
 	para "deep secrets about"
-	line "ECRUTEAK."
+	line "Ecruteak."
 	done
 
 EcruteakGymGuideWinText:

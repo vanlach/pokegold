@@ -5469,7 +5469,7 @@ MoveInfoBox:
 .Disabled:
 	db "Disabled!@"
 .Type:
-	db "TYPE/@"
+	db "Type/@"
 
 ParseEnemyAction:
 	ld a, [wEnemyIsSwitching]
@@ -8052,11 +8052,11 @@ ShowLinkBattleParticipantsAfterEnd:
 	ret
 
 .YouWin:
-	db "YOU WIN@"
+	db "You win@"
 .YouLose:
-	db "YOU LOSE@"
+	db "You lose@"
 .Draw:
-	db "  DRAW@"
+	db "  draw@"
 
 LINK_BATTLE_RECORD_LENGTH EQUS "(sLinkBattleRecord1End - sLinkBattleRecord1)" ; 18
 NUM_LINK_BATTLE_RECORDS EQUS "((sLinkBattleStatsEnd - sLinkBattleRecord) / LINK_BATTLE_RECORD_LENGTH)" ; 5
@@ -8201,11 +8201,11 @@ ReadAndPrintLinkBattleRecord:
 	db "  ---  <LF>"
 	db "         -    -    -@"
 .Record:
-	db "<PLAYER>'s RECORD@"
+	db "<PLAYER>'s Record@"
 .Result:
-	db "RESULT WIN LOSE DRAW@"
+	db "Result Win Lose Draw@"
 .Total:
-	db "TOTAL  WIN LOSE DRAW@"
+	db "Total  Win Lose Draw@"
 
 BattleEnd_HandleRoamMons:
 	ld a, [wBattleType]

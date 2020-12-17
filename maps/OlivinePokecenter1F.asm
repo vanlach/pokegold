@@ -26,7 +26,7 @@ OlivinePokecenter1FFisherText:
 	line "generous."
 
 	para "One taught my"
-	line "#MON STRENGTH."
+	line "#mon Strength."
 
 	para "Now it can move"
 	line "big boulders."
@@ -34,12 +34,12 @@ OlivinePokecenter1FFisherText:
 
 OlivinePokecenter1FTeacherText:
 	text "There's a person"
-	line "in CIANWOOD CITY"
+	line "in Cianwood City"
 	cont "across the sea."
 
 	para "I heard him brag-"
 	line "ging about his"
-	cont "rare #MON."
+	cont "rare #mon."
 	done
 
 OlivinePokecenter1F_MapEvents:

@@ -132,8 +132,8 @@ GentlemanAlfredBeatenText:
 
 GentlemanAlfredAfterBattleText:
 	text "Up top is a #-"
-	line "MON that keeps the"
-	cont "LIGHTHOUSE lit."
+	line "mon that keeps the"
+	cont "lighthouse lit."
 
 	para "But I hear that"
 	line "it's sick now and"

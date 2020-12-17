@@ -1,4 +1,4 @@
-	db "THUNDER@" ; species name
+	db "Thunder@" ; species name
 	dw 603, 3920 ; height, weight
 
 	db   "The rain clouds it"

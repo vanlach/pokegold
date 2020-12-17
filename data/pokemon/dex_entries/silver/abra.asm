@@ -1,8 +1,8 @@
-	db "PSI@" ; species name
+	db "Psi@" ; species name
 	dw 211, 430 ; height, weight
 
 	db   "If it decides to"
-	next "TELEPORT randomly,"
+	next "teleport randomly,"
 	next "it creates the"
 
 	page "illusion that it"

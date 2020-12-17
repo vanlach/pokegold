@@ -81,16 +81,16 @@ PewterCityFruitTree2:
 
 PewterCityCooltrainerFText:
 	text "Have you visited"
-	line "PEWTER GYM?"
+	line "Pewter Gym?"
 
-	para "The LEADER uses"
-	line "rock-type #MON."
+	para "The leader uses"
+	line "rock-type #mon."
 	done
 
 PewterCityBugCatcherText:
-	text "At night, CLEFAIRY"
+	text "At night, Clefairy"
 	line "come out to play"
-	cont "at MT.MOON."
+	cont "at Mt.Moon."
 
 	para "But not every"
 	line "night."
@@ -99,13 +99,13 @@ PewterCityBugCatcherText:
 PewterCityGrampsText:
 	text "Ah, you came all"
 	line "the way out here"
-	cont "from JOHTO?"
+	cont "from Johto?"
 
 	para "That brings back"
 	line "memories. When I"
 
 	para "was young, I went"
-	line "to JOHTO to train."
+	line "to Johto to train."
 
 	para "You remind me so"
 	line "much of what I was"
@@ -115,7 +115,7 @@ PewterCityGrampsText:
 
 	para "Here. I want you"
 	line "to have this item"
-	cont "I found in JOHTO."
+	cont "I found in Johto."
 	done
 
 PewterCityGrampsText_GotSilverWing:
@@ -128,25 +128,25 @@ PewterCityGrampsText_GotSilverWing:
 	done
 
 PewterCitySignText:
-	text "PEWTER CITY"
+	text "Pewter City"
 	line "A Stone Gray City"
 	done
 
 PewterGymSignText:
-	text "PEWTER CITY"
-	line "#MON GYM"
-	cont "LEADER: BROCK"
+	text "Pewter City"
+	line "#mon Gym"
+	cont "Leader: Brock"
 
 	para "The Rock Solid"
-	line "#MON Trainer"
+	line "#mon Trainer"
 	done
 
 PewterMuseumSignText:
 	text "There's a notice"
 	line "here…"
 
-	para "PEWTER MUSEUM OF"
-	line "SCIENCE is closed"
+	para "Pewter Museum of"
+	line "Science is closed"
 	cont "for renovations…"
 	done
 
@@ -154,13 +154,13 @@ PewterCityMtMoonGiftShopSignText:
 	text "There's a notice"
 	line "here…"
 
-	para "MT.MOON GIFT SHOP"
+	para "Mt.Moon Gift Shop"
 	line "now open!"
 	done
 
 PewterCityWelcomeSignText:
 	text "Welcome to"
-	line "PEWTER CITY!"
+	line "Pewter City!"
 	done
 
 PewterCity_MapEvents:

@@ -1,7 +1,7 @@
-	db "SLUDGE@" ; species name
+	db "Sludge@" ; species name
 	dw 211, 660 ; height, weight
 
-	db   "Wherever GRIMER"
+	db   "Wherever Grimer"
 	next "has passed, so"
 	next "many germs are"
 

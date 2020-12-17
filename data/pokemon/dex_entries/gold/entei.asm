@@ -1,4 +1,4 @@
-	db "VOLCANO@" ; species name
+	db "Volcano@" ; species name
 	dw 611, 4370 ; height, weight
 
 	db   "Volcanoes erupt"

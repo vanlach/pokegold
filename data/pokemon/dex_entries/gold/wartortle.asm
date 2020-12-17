@@ -1,4 +1,4 @@
-	db "TURTLE@" ; species name
+	db "Turtle@" ; species name
 	dw 303, 500 ; height, weight
 
 	db   "It is recognized"
@@ -6,5 +6,5 @@
 	next "longevity. If its"
 
 	page "shell has algae on"
-	next "it, that WARTORTLE"
+	next "it, that Wartortle"
 	next "is very old.@"

@@ -1,7 +1,7 @@
-	db "HERB@" ; species name
+	db "Herb@" ; species name
 	dw 511, 2220 ; height, weight
 
-	db   "MEGANIUM's breath"
+	db   "Meganium's breath"
 	next "has the power to"
 	next "revive dead grass"
 
