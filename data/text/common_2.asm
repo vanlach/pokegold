@@ -262,18 +262,11 @@ _ItemfinderNopeText::
 	line "isn't responding."
 	prompt
 
-_PoisonFaintText::
+_PoisonRecoveryText::
 	text_ram wStringBuffer3
 	text_start
-	line "fainted!"
-	prompt
-
-_PoisonWhiteoutText::
-	text "<PLAYER> is out of"
-	line "useable #mon!"
-
-	para "<PLAYER> whited"
-	line "out!"
+	line "survived the"
+	cont "poisoning!"
 	prompt
 
 _UseSweetScentText::
