@@ -10,7 +10,7 @@ Script_Whiteout:
 	checkflag ENGINE_BUG_CONTEST_TIMER
 	iftrue .bug_contest
 	callasm LoseWhiteOutMoney
-	ifflase .plain_whiteout_text
+	iffalse .plain_whiteout_text
 	callasm CheckWildBattlePanic
 	iffalse .wild_whiteout_text
 	writetext .WhitedOutToTrainerText

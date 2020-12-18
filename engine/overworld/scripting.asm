@@ -2236,7 +2236,7 @@ Script_checkver_duplicate: ; unreferenced
 
 AppendTMHMMoveName::
 ; a = item ID
-	ld a, [wNameObjectIndexBuffer]
+	ld a, [wNamedObjectIndexBuffer]
 	cp TM01
 	ret c
 ; save item name buffer
