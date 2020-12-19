@@ -13,7 +13,7 @@ _2DMenu_::
 	jr z, .skip
 	call GetMenuJoypad
 	bit SELECT_F, a
-	jr nz, .quit1
+	jr nz, .quit
 
 .skip
 	ld a, [wMenuDataFlags]
@@ -21,7 +21,7 @@ _2DMenu_::
 	jr nz, .skip2
 	call GetMenuJoypad
 	bit B_BUTTON_F, a
-	jr nz, .quit2
+	jr nz, .quit
 
 .skip2
 	ld a, [w2DMenuNumCols]
@@ -36,11 +36,7 @@ _2DMenu_::
 	and a
 	ret
 
-.quit1
-	scf
-	ret
-
-.quit2
+.quit
 	scf
 	ret
 
@@ -54,6 +50,11 @@ Get2DMenuNumberOfRows:
 	swap a
 	and $f
 	ret
+
+Draw2DMenu:
+	xor a
+	ld [hBGMapMode], a
+	call MenuBox
 
 Place2DMenuItemStrings:
 	ld hl, wMenuData_2DMenuItemStringsAddr
@@ -249,13 +250,13 @@ Menu_WasButtonPressed:
 _2DMenuInterpretJoypad:
 	call GetMenuJoypad
 	bit A_BUTTON_F, a
-	jp nz, .a_b_start_select
+	jp nz, .a_button
 	bit B_BUTTON_F, a
-	jp nz, .a_b_start_select
+	jp nz, .b_button
 	bit SELECT_F, a
-	jp nz, .a_b_start_select
+	jp nz, .select_button
 	bit START_F, a
-	jp nz, .a_b_start_select
+	jp nz, .start_button
 	bit D_RIGHT_F, a
 	jr nz, .d_right
 	bit D_LEFT_F, a
@@ -364,12 +365,42 @@ _2DMenuInterpretJoypad:
 
 .wrap_around_right
 	ld [hl], $1
+.a_button
+.finish
 	xor a
 	ret
 
-.a_b_start_select
-	xor a
-	ret
+.b_button
+	ld a, [wBattleMenuFlags]
+	and QUICK_B
+	jr z, .finish
+	ld a, $2
+	ld [wMenuCursorX], a
+	ld [wMenuCursorY], a
+	jr .finish
+
+.select_button
+	ld a, [wBattleMenuFlags]
+	and QUICK_SELECT
+	jr z, .finish
+	ld a, 2
+	ld [wMenuCursorX], a
+	dec a
+	ld [wMenuCursorY], a
+	jr .finish
+
+.start_button
+	ld a, [wBattleMenuFlags]
+	and QUICK_START
+	jr z, .finish
+	ld a, 1
+	ld [wMenuCursorX], a
+	inc a
+	ld [wMenuCursorY], a
+	ld a, [wBattleMenuFlags]
+	or QUICK_PACK
+	ld [wBattleMenuFlags], a
+	jr .finish
 
 Move2DMenuCursor:
 	ld hl, wCursorCurrentTile

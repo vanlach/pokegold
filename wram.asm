@@ -144,8 +144,10 @@ wPrevDexEntry:: db
 wDisableTextAcceleration:: db
 wPCItemsCursor:: db
 wPCItemsScrollPosition:: db
+wBattleMenuFlags:: db
 
-	ds 39
+
+	ds 38
 
 
 SECTION "GBC Palettes", WRAM0
