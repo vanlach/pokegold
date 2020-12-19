@@ -2,6 +2,18 @@
 
 KantoWaterWildMons:
 
+	map_id TOHJO_FALLS
+	db 4 percent ; encounter rate
+	db 20, GOLDEEN
+	db 20, SLOWPOKE
+	db 20, SEAKING
+
+	map_id VERMILION_PORT
+	db 2 percent ; encounter rate
+	db 35, TENTACOOL
+	db 30, TENTACOOL
+	db 35, TENTACRUEL
+
 	map_id ROUTE_4
 	db 4 percent ; encounter rate
 	db 10, GOLDEEN
@@ -86,12 +98,6 @@ KantoWaterWildMons:
 	db 15, TENTACOOL
 	db 20, TENTACRUEL
 
-	map_id TOHJO_FALLS
-	db 4 percent ; encounter rate
-	db 20, GOLDEEN
-	db 20, SLOWPOKE
-	db 20, SEAKING
-
 	map_id ROUTE_28
 	db 2 percent ; encounter rate
 	db 40, POLIWAG
@@ -136,12 +142,6 @@ KantoWaterWildMons:
 
 	map_id CINNABAR_ISLAND
 	db 6 percent ; encounter rate
-	db 35, TENTACOOL
-	db 30, TENTACOOL
-	db 35, TENTACRUEL
-
-	map_id VERMILION_PORT
-	db 2 percent ; encounter rate
 	db 35, TENTACOOL
 	db 30, TENTACOOL
 	db 35, TENTACRUEL

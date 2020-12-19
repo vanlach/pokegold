@@ -11,3 +11,4 @@ ContestMons:
 	db  5, SCYTHER,    13, 14
 	db  5, PINSIR,     13, 14
 	db -1, VENOMOTH,   30, 40
+	
