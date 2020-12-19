@@ -120,7 +120,8 @@ SECTION "WRAM", WRAM0
 wLZAddress:: dw
 wLZBank::    db
 
-	ds 1
+wd265:: ; mobile
+		db
 
 wInputType::        db
 wAutoInputAddress:: dw
