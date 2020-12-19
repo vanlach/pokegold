@@ -144,14 +144,15 @@ NUM_ROAMMON_MAPS EQU 16 ; RoamMaps table size (see data/wild/roammon_maps.asm)
 ; treemon sets
 ; TreeMons indexes (see data/wild/treemons.asm)
 	const_def
-	const TREEMON_SET_NONE
-	const TREEMON_SET_FOREST
+	const TREEMON_SET_CITY
 	const TREEMON_SET_CANYON
+	const TREEMON_SET_TOWN
+	const TREEMON_SET_ROUTE
+	const TREEMON_SET_KANTO
+	const TREEMON_SET_LAKE
+	const TREEMON_SET_FOREST
 	const TREEMON_SET_ROCK
 NUM_TREEMON_SETS EQU const_value
-; last 2 are unused/ignored
-	const TREEMON_SET_UNUSED
-	const TREEMON_SET_CITY
 
 ; treemon scores
 	const_def
