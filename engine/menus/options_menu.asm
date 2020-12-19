@@ -189,7 +189,7 @@ GetTextSpeed:
 
 .fast
 	ld c, OPT_TEXT_SPEED_FAST
-	lb de, TEXT_DELAY_SLOW, TEXT_DELAY_MED
+	lb de, TEXT_DELAY_NONE, TEXT_DELAY_MED
 	ret
 
 .none
