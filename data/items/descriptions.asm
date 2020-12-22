@@ -99,7 +99,7 @@ ItemDescriptions:
 	dw WhtApricornDesc
 	dw BlackbeltDesc
 	dw BlkApricornDesc
-	dw TeruSama8Desc
+	dw TradeStoneDesc
 	dw PnkApricornDesc
 	dw BlackGlassesDesc
 	dw SlowpokeTailDesc
@@ -641,8 +641,9 @@ BlkApricornDesc:
 	db   "A black apricorn."
 	next "@"
 
-TeruSama8Desc:
-	db   "?@"
+TradeStoneDesc:
+	db   "Evolves certain"
+	next "kinds of #mon.@"
 
 PnkApricornDesc:
 	db   "A pink apricorn."

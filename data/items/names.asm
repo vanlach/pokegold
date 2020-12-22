@@ -98,7 +98,7 @@ ItemNames::
 	db "Wht Apricorn@"
 	db "Blackbelt@"
 	db "Blk Apricorn@"
-	db "TERU-SAMA@"
+	db "Trade Stone@"
 	db "Pnk Apricorn@"
 	db "Blackglasses@"
 	db "Slowpoketail@"

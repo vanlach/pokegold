@@ -807,6 +807,7 @@ PoliwagEvosAttacks:
 PoliwhirlEvosAttacks:
 	db EVOLVE_ITEM, WATER_STONE, POLIWRATH
 	db EVOLVE_HOLDING, KINGS_ROCK, POLITOED
+	db EVOLVE_TRADE, KINGS_ROCK, POLITOED
 	db 0 ; no more evolutions
 	db 1, BUBBLE
 	db 1, HYPNOSIS
@@ -837,6 +838,7 @@ AbraEvosAttacks:
 	db 0 ; no more level-up moves
 
 KadabraEvosAttacks:
+	db EVOLVE_ITEM, TRADE_STONE, ALAKAZAM
 	db EVOLVE_TRADE, -1, ALAKAZAM
 	db 0 ; no more evolutions
 	db 1, TELEPORT
@@ -881,6 +883,7 @@ MachopEvosAttacks:
 	db 0 ; no more level-up moves
 
 MachokeEvosAttacks:
+	db EVOLVE_ITEM, TRADE_STONE, MACHAMP
 	db EVOLVE_TRADE, -1, MACHAMP
 	db 0 ; no more evolutions
 	db 1, LOW_KICK
@@ -995,6 +998,7 @@ GeodudeEvosAttacks:
 	db 0 ; no more level-up moves
 
 GravelerEvosAttacks:
+	db EVOLVE_ITEM, TRADE_STONE, GOLEM
 	db EVOLVE_TRADE, -1, GOLEM
 	db 0 ; no more evolutions
 	db 1, TACKLE
@@ -1060,6 +1064,7 @@ RapidashEvosAttacks:
 SlowpokeEvosAttacks:
 	db EVOLVE_LEVEL, 37, SLOWBRO
 	db EVOLVE_HOLDING, KINGS_ROCK, SLOWKING
+	db EVOLVE_TRADE, KINGS_ROCK, SLOWKING
 	db 0 ; no more evolutions
 	db 1, CURSE
 	db 1, TACKLE
@@ -1248,6 +1253,7 @@ GastlyEvosAttacks:
 	db 0 ; no more level-up moves
 
 HaunterEvosAttacks:
+	db EVOLVE_ITEM, TRADE_STONE, GENGAR
 	db EVOLVE_TRADE, -1, GENGAR
 	db 0 ; no more evolutions
 	db 1, HYPNOSIS
@@ -1278,6 +1284,7 @@ GengarEvosAttacks:
 
 OnixEvosAttacks:
 	db EVOLVE_HOLDING, METAL_COAT, STEELIX
+	db EVOLVE_TRADE, METAL_COAT, STEELIX
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, SCREECH
@@ -1588,6 +1595,7 @@ HorseaEvosAttacks:
 
 SeadraEvosAttacks:
 	db EVOLVE_HOLDING, DRAGON_SCALE, KINGDRA
+	db EVOLVE_TRADE, DRAGON_SCALE, KINGDRA
 	db 0 ; no more evolutions
 	db 1, BUBBLE
 	db 1, SMOKESCREEN
@@ -1670,6 +1678,7 @@ MrMimeEvosAttacks:
 
 ScytherEvosAttacks:
 	db EVOLVE_HOLDING, METAL_COAT, SCIZOR
+	db EVOLVE_TRADE, METAL_COAT, SCIZOR
 	db 0 ; no more evolutions
 	db 1, QUICK_ATTACK
 	db 1, LEER
@@ -1854,6 +1863,7 @@ FlareonEvosAttacks:
 
 PorygonEvosAttacks:
 	db EVOLVE_HOLDING, UP_GRADE, PORYGON2
+	db EVOLVE_TRADE, UP_GRADE, PORYGON2
 	db 0 ; no more evolutions
 	db 1, CONVERSION2
 	db 1, TACKLE
