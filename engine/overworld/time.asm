@@ -94,6 +94,7 @@ CheckDailyResetTimer::
 	ld hl, wDailyFlags1
 	ld [hli], a ; wDailyFlags1
 	ld [hl], a  ; wDailyFlags2
+	ld [wLuckyNumberShowFlag], a
 	jr RestartDailyResetTimer
 
 StartBugContestTimer:
