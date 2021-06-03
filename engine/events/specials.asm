@@ -457,3 +457,7 @@ TrainerHouse:
 	jp CloseSRAM
 
 	nop ; unused
+
+trader:
+	farcall Trader
+	ret
